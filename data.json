@@ -1,0 +1,452 @@
+[
+  {
+    "date": "313",
+    "event": "Edykt mediolański",
+    "description": "Wprowadzenie wolności wyznania dla chrześcijan w Cesarstwie Rzymskim przez Konstantyna Wielkiego."
+  },
+  {
+    "date": "325",
+    "event": "Sobór w Nicei",
+    "description": "Pierwszy sobór powszechny chrześcijaństwa, na którym sformułowano wyznanie wiary i potępiono arianizm."
+  },
+  {
+    "date": "378",
+    "event": "Bitwa pod Adrianopolem",
+    "description": "Ciężka klęska rzymskich legionów w starciu z Wizygotami, w której zginął cesarz Walens."
+  },
+  {
+    "date": "395",
+    "event": "Podział cesarstwa",
+    "description": "Teodozjusz Wielki dzieli Cesarstwo Rzymskie na zachodniorzymskie i wschodniorzymskie (Bizancjum)."
+  },
+  {
+    "date": "476",
+    "event": "Zamach Odoakra",
+    "description": "Obalenie ostatniego cesarza zachodniorzymskiego, Romulusa Augustulusa. Koniec starożytności."
+  },
+  {
+    "date": "496",
+    "event": "Chrzest Chlodwiga",
+    "description": "Władca Franków przyjmuje chrzest w obrządku katolickim, co dało początek silnemu państwu frankijskiemu."
+  },
+  {
+    "date": "527–565",
+    "event": "Panowanie Justyniana Wielkiego",
+    "description": "Okres potęgi Bizancjum, kodyfikacja prawa rzymskiego (Kodeks Justyniana) i budowa Hagia Sophia."
+  },
+  {
+    "date": "529",
+    "event": "Założenie klasztoru na Monte Cassino",
+    "description": "Święty Benedykt zakłada klasztor i tworzy regułę benedyktyńską, kładąc fundament pod zachodni monastycyzm."
+  },
+  {
+    "date": "622",
+    "event": "Hidżra",
+    "description": "Ucieczka Mahometa z Mekki do Medyny. Wydarzenie to oznacza początek ery muzułmańskiej (kalendarza)."
+  },
+  {
+    "date": "622–625",
+    "event": "Powstanie Państwa Samona",
+    "description": "Najstarszy znany związek plemion słowiańskich, utworzony przez frankijskiego kupca Samona."
+  },
+  {
+    "date": "634–661",
+    "event": "Powstanie imperium arabskiego",
+    "description": "Okres gwałtownej ekspansji islamu poza Półwysep Arabski pod rządami pierwszych kalifów."
+  },
+  {
+    "date": "711",
+    "event": "Zdobycie Hiszpanii przez Arabów",
+    "description": "Wojska muzułmańskie pod wodzą Tarika lądują na Półwyspie Iberyjskim i rozbijają królestwo Wizygotów."
+  },
+  {
+    "date": "726",
+    "event": "Edykt obrazoburczy",
+    "description": "Cesarz Leon III wydaje zakaz kultu ikon w Bizancjum, co wywołuje głęboki kryzys religijny i społeczny."
+  },
+  {
+    "date": "732",
+    "event": "Bitwa pod Poitiers",
+    "description": "Zwycięstwo Karola Młota nad Arabami, które powstrzymało ekspansję muzułmańską w Europie Zachodniej."
+  },
+  {
+    "date": "751",
+    "event": "Koronacja Pepina Krótkiego",
+    "description": "Pepin, zwany Małym (lub Wielkim w niektórych tradycjach), zapoczątkowuje dynastię Karolingów na tronie Franków."
+  },
+  {
+    "date": "768–814",
+    "event": "Rządy Karola Wielkiego",
+    "description": "Okres ogromnego rozwoju terytorialnego państwa Franków oraz tzw. renesansu karolińskiego."
+  },
+  {
+    "date": "800",
+    "event": "Koronacja Karola Wielkiego",
+    "description": "Papież Leon III koronuje Karola Wielkiego na cesarza rzymskiego w Rzymie."
+  },
+  {
+    "date": "830",
+    "event": "Powstanie Państwa Wielkomorawskiego",
+    "description": "Formowanie się silnego organizmu państwowego Słowian zachodnich w dolinie rzeki Morawy."
+  },
+  {
+    "date": "843",
+    "event": "Traktat w Verdun",
+    "description": "Podział imperium Karola Wielkiego pomiędzy jego trzech wnuków. Zalążek przyszłych Niemiec, Francji i Włoch."
+  },
+  {
+    "date": "863–885",
+    "event": "Misja Cyryla i Metodego",
+    "description": "Chrystianizacja Państwa Wielkomorawskiego przez 'Apostołów Słowian', twórców pierwszego alfabetu słowiańskiego."
+  },
+  {
+    "date": "899",
+    "event": "Powstanie Państwa Kijowskiego",
+    "description": "Koniec IX wieku przynosi zjednoczenie plemion wschodniosłowiańskich i uformowanie Rusi Kijowskiej."
+  },
+  {
+    "date": "906",
+    "event": "Upadek Wielkich Moraw",
+    "description": "Państwo Wielkomorawskie ulega rozpadowi i niszczycielskim najazdom koczowniczych Węgrów."
+  },
+  {
+    "date": "919–1024",
+    "event": "Rządy dynastii Ludolfingów",
+    "description": "Rządy dynastii saskiej w Rzeszy Niemieckiej, budowanie potęgi królestwa."
+  },
+  {
+    "date": "928",
+    "event": "Początek walk ze Słowianami",
+    "description": "Król niemiecki Henryk I Ptasznik rozpoczyna zbrojną ekspansję na ziemie Słowian połabskich."
+  },
+  {
+    "date": "929",
+    "event": "Hołd Czech i śmierć św. Wacława",
+    "description": "Czechy składają hołd lenny Niemcom. W tym samym roku ginie książę Wacław, późniejszy święty i patron Czech."
+  },
+  {
+    "date": "955",
+    "event": "Bitwa nad rzeką Lech",
+    "description": "Otton I gromi koczowniczych Węgrów, ostatecznie kończąc ich niszczycielskie najazdy na Europę Zachodnią."
+  },
+  {
+    "date": "962",
+    "event": "Koronacja Ottona I na cesarza",
+    "description": "Odnowienie cesarstwa na zachodzie. Wydarzenie to uznaje się za początek Świętego Cesarstwa Rzymskiego."
+  },
+  {
+    "date": "988",
+    "event": "Chrzest Włodzimierza Wielkiego",
+    "description": "Książę kijowski przyjmuje chrzest z Bizancjum, co oznacza chrystianizację Rusi w obrządku wschodnim."
+  },
+  {
+    "date": "997",
+    "event": "Misja i śmierć św. Wojciecha",
+    "description": "Biskup Wojciech ginie śmiercią męczeńską podczas misji chrystianizacyjnej u pogańskich Prusów."
+  },
+  {
+    "date": "999",
+    "event": "Kanonizacja św. Wojciecha",
+    "description": "Papież Sylwester II ogłasza Wojciecha świętym, co umożliwia utworzenie polskiej metropolii kościelnej."
+  },
+  {
+    "date": "1000",
+    "event": "Zjazd gnieźnieński",
+    "description": "Pielgrzymka cesarza Ottona III do grobu św. Wojciecha i jego spotkanie z Bolesławem Chrobrym."
+  },
+  {
+    "date": "1002–1018",
+    "event": "Wojny polsko-niemieckie",
+    "description": "Długotrwały konflikt Bolesława Chrobrego z Henrykiem II o kontrolę nad Łużycami, Milskiem i Czechami."
+  },
+  {
+    "date": "1018",
+    "event": "Pokój w Budziszynie",
+    "description": "Zakończenie wojen polsko-niemieckich. Przyłączenie Milska i Łużyc do Polski jako suwerennych ziem Chrobrego."
+  },
+  {
+    "date": "1054",
+    "event": "Schizma wschodnia",
+    "description": "Trwały rozłam w chrześcijaństwie na Kościół katolicki (zachodni) i prawosławny (wschodni)."
+  },
+  {
+    "date": "1066",
+    "event": "Bitwa pod Hastings",
+    "description": "Wilhelm Zdobywca pokonuje Anglosasów. Początek normańskiego podboju Anglii."
+  },
+  {
+    "date": "1075",
+    "event": "Dictatus papae",
+    "description": "Dekret Grzegorza VII formułujący postulaty papieża do pełni władzy nad światem chrześcijańskim (papiestwo nad cesarstwem)."
+  },
+  {
+    "date": "1077",
+    "event": "Canossa",
+    "description": "Upokorzenie cesarza Henryka IV, który boso pokutował przed papieżem Grzegorzem VII w celu zdjęcia klątwy."
+  },
+  {
+    "date": "1095",
+    "event": "Synod w Clermont",
+    "description": "Papież Urban II wzywa rycerstwo europejskie do zbrojnej obrony chrześcijan i odbicia Ziemi Świętej."
+  },
+  {
+    "date": "1096",
+    "event": "Krucjata ludowa",
+    "description": "Niezorganizowana wyprawa ubogich chłopów i rzezimieszków do Ziemi Świętej, zmasakrowana przez Turków w Azji Mniejszej."
+  },
+  {
+    "date": "1096–1099",
+    "event": "I krucjata",
+    "description": "Wyprawa rycerska, która zakończyła się zdobyciem Jerozolimy przez krzyżowców i utworzeniem Królestwa Jerozolimskiego."
+  },
+  {
+    "date": "1122",
+    "event": "Konkordat wormacki",
+    "description": "Ugoda między papieżem a cesarzem kończąca pierwszy etap sporu o inwestyturę urzędów kościelnych."
+  },
+  {
+    "date": "1147–1149",
+    "event": "II krucjata",
+    "description": "Wyprawa zorganizowana po utracie hrabstwa Edessy, zakończona całkowitym niepowodzeniem krzyżowców."
+  },
+  {
+    "date": "1189–1192",
+    "event": "III krucjata",
+    "description": "Wyprawa trzech królów (m.in. Ryszarda Lwie Serce) po zdobyciu Jerozolimy przez Saladyna. Wywalczono dostęp dla pielgrzymów."
+  },
+  {
+    "date": "1198–1216",
+    "event": "Pontyfikat Innocentego III",
+    "description": "Okres szczytowej potęgi politycznej i religijnej papiestwa w średniowiecznej Europie."
+  },
+  {
+    "date": "1202–1204",
+    "event": "IV krucjata",
+    "description": "Wyprawa wypaczona przez interesy Wenecji, która zamiast do Ziemi Świętej uderzyła na chrześcijańskie Bizancjum."
+  },
+  {
+    "date": "1204",
+    "event": "Zdobycie Konstantynopola",
+    "description": "Krzyżowcy IV krucjaty zdobywają i łupią stolicę Bizancjum, tworząc na jej gruzach terytorialne Cesarstwo Łacińskie."
+  },
+  {
+    "date": "1206",
+    "event": "Podboje Czingis-chana",
+    "description": "Temudżyn jednoczy plemiona mongolskie, przyjmuje tytuł Czingis-chana i rozpoczyna budowę gigantycznego imperium."
+  },
+  {
+    "date": "1214",
+    "event": "Bitwa pod Bouvines",
+    "description": "Wielkie starcie, w którym król Francji Filip II August pokonał siły angielskie i niemieckie, umacniając pozycję Francji."
+  },
+  {
+    "date": "1215",
+    "event": "Sobór laterański IV",
+    "description": "Wielki sobór reformujący Kościół, dogmatyzujący m.in. obowiązek spowiedzi wielkanocnej oraz transsubstancjację."
+  },
+  {
+    "date": "1215",
+    "event": "Wielka Karta Swobód",
+    "description": "Król Anglii Jan bez Ziemi ogranicza władzę królewską na rzecz baronów, dając podwaliny pod angielski system wolnościowy."
+  },
+  {
+    "date": "1217–1219",
+    "event": "V krucjata",
+    "description": "Wyprawa skierowana przeciwko Egiptowi (kluczowi do Ziemi Świętej), zakończona porażką i kapitulacją krzyżowców."
+  },
+  {
+    "date": "1223",
+    "event": "Bitwa pod Kałką",
+    "description": "Pierwsze starcie wojsk mongolskich z połączonymi siłami rusko-połowieckimi, zakończone klęską książąt ruskich."
+  },
+  {
+    "date": "1237",
+    "event": "Najazd Mongołów na Ruś Zaleską",
+    "description": "Watahy Batu-chana niszczą i podporządkowują sobie kolejne księstwa północno-wschodniej Rusi."
+  },
+  {
+    "date": "1240–1241",
+    "event": "Najazd Mongołów na Węgry i Polskę",
+    "description": "Niszczycielski najazd na Europę Środkową, w trakcie którego doszło m.in. do tragicznej bitwy pod Legnicą (1241)."
+  },
+  {
+    "date": "1248–1254",
+    "event": "VI wyprawa krzyżowa",
+    "description": "Zorganizowana przez króla Francji Ludwika IX Świętego; zakończyła się dostaniem się monarchy do egipskiej niewoli."
+  },
+  {
+    "date": "1257–1273",
+    "event": "Wielkie Bezkrólewie w Niemczech",
+    "description": "Okres wewnętrznego chaosu politycznego w Niemczech po upadku dynastii Staufów, brak powszechnie uznawanego króla."
+  },
+  {
+    "date": "1265",
+    "event": "Początek parlamentu angielskiego",
+    "description": "Szymon z Montfort zwołuje zgromadzenie z udziałem rycerstwa i mieszczaństwa, dając początek parlamentaryzmowi."
+  },
+  {
+    "date": "1270",
+    "event": "VII wyprawa krzyżowa",
+    "description": "Ostatnia oficjalna krucjata Ludwika IX, skierowana do Tunisu, gdzie król i większość wojska zmarli na dżumę/dysenterię."
+  },
+  {
+    "date": "1278",
+    "event": "Bitwa pod Suchymi Krutami",
+    "description": "Starcie nad rzeką Morawą, w którym Rudolf I Habsburg pokonał Przemysła Ottokara II, umacniając dynastię Habsburgów."
+  },
+  {
+    "date": "1282",
+    "event": "Nieszpory Sycylijskie",
+    "description": "Krwawe powstanie ludności Sycylii przeciwko obcym rządom Andegawenów, które doprowadziło do przejęcia wyspy przez Aragonię."
+  },
+  {
+    "date": "1291",
+    "event": "Upadek Akki",
+    "description": "Zdobycie ostatniej twierdzy krzyżowców w Palestynie przez Mameluków. Ostateczny koniec epoki krucjat w Ziemi Świętej."
+  },
+  {
+    "date": "1302",
+    "event": "Bitwa pod Courtrai / Stany Generalne",
+    "description": "Flandryjskie piechoty miejskie gromią francuskie rycerstwo (bitwa ostróg). W tym samym roku Filip IV Piękny zwołuje pierwsze Stany Generalne."
+  },
+  {
+    "date": "1305",
+    "event": "Zamordowanie Wacława III",
+    "description": "Skrytobójczy mord w Ołomuńcu kończy męską linię czeskiej dynastii Przemyślidów, otwierając okres walk o tron."
+  },
+  {
+    "date": "1309–1377",
+    "event": "Niewola awiniońska",
+    "description": "Okres, w którym papieże rezydowali w Awinionie pod przemożnym wpływem politycznym królów Francji."
+  },
+  {
+    "date": "1335",
+    "event": "Zjazd w Wyszehradzie",
+    "description": "Spotkanie królów Polski, Czech i Węgier rozstrzygające spory terytorialne oraz roszczenia Jana Luksemburskiego do polskiego tronu."
+  },
+  {
+    "date": "1340–1366",
+    "event": "Opanowanie Rusi Halickiej",
+    "description": "Kazimierz Wielki włącza Ruś Halicko-Włodzimierską do Królestwa Polskiego, rozpoczynając ekspansję na wschód."
+  },
+  {
+    "date": "1348–1350",
+    "event": "Epidemia Czarnej Śmierci",
+    "description": "Straszliwa pandemia dżumy, która uśmierciła od 30% do 60% ludności ówczesnej Europy."
+  },
+  {
+    "date": "1346",
+    "event": "Bitwa pod Crecy",
+    "description": "Wielkie starcie wojny stuletniej; angielscy łucznicy masakrują ciężkozbrojne rycerstwo francuskie."
+  },
+  {
+    "date": "1356",
+    "event": "Wydanie Złotej Bulli Karola IV",
+    "description": "Ustawa zasadnicza Rzeszy Niemieckiej regulująca ustrój państwa i zasady wyboru cesarza przez siedmiu elektorów."
+  },
+  {
+    "date": "1356",
+    "event": "Bitwa pod Poitiers",
+    "description": "Kolejna wielka klęska Francuzów w wojnie stuletniej; Czarny Książę rozbija armię francuską i bierze do niewoli króla Jana II Dobrego."
+  },
+  {
+    "date": "1360",
+    "event": "Traktat w Bretigny",
+    "description": "Chwilowy pokój w wojnie stuletniej; Edward III zrzeka się roszczeń do korony Francji w zamian za pełną suwerenność nad Akwitanią."
+  },
+  {
+    "date": "1378–1415",
+    "event": "Wielka schizma zachodnia",
+    "description": "Okres, w którym do władzy w Kościele rościło sobie prawo dwóch, a nawet trzech papieży jednocześnie."
+  },
+  {
+    "date": "1380",
+    "event": "Bitwa na Kulikowym Polu",
+    "description": "Zwycięstwo wojsk moskiewskich pod wodzą Dymitra Dońskiego nad Tatarami Złotej Ordy, początek zrzucania jarzma."
+  },
+  {
+    "date": "1389",
+    "event": "Bitwa na Kosowym Polu",
+    "description": "Starcie wojsk serbskich z osmańskimi Turkami. Klęska Serbów przypieczętowała utratę ich niepodległości na wieki."
+  },
+  {
+    "date": "1397",
+    "event": "Unia kalmarska",
+    "description": "Związek polityczny łączący Danię, Szwecję i Norwegię pod berłem jednego monarchy."
+  },
+  {
+    "date": "1414–1418",
+    "event": "Sobór w Konstancji",
+    "description": "Zgromadzenie Kościoła, które zakończyło wielką schizmę zachodnią oraz skazało na śmierć Jana Husa."
+  },
+  {
+    "date": "1415",
+    "event": "Spalenie Jana Husa",
+    "description": "Czeski reformator religijny zostaje spalony na stosie w Konstancji, co wywołuje wybuch wojen husyckich w Czechach."
+  },
+  {
+    "date": "1415",
+    "event": "Bitwa pod Azincourt",
+    "description": "Błyskotliwe zwycięstwo nielicznej armii Henryka V nad kwiatem francuskiego rycerstwa w trakcie wojny stuletniej."
+  },
+  {
+    "date": "1419",
+    "event": "Początek rewolucji husyckiej",
+    "description": "Pierwsza defenestracja praska daje sygnał do krwawych wojen religijno-społecznych w Czechach."
+  },
+  {
+    "date": "1428–1429",
+    "event": "Oblężenie Orleanu",
+    "description": "Kluczowy punkt zwrotny wojny stuletniej; odsiecz pod wodzą Joanny d’Arc przełamuje angielskie oblężenie miasta."
+  },
+  {
+    "date": "1431",
+    "event": "Spalenie Joanny d’Arc",
+    "description": "Francuska bohaterka narodowa, schwytana przez Burgundczyków i przekazana Anglikom, zostaje skazana i spalona na stosie jako czarownica."
+  },
+  {
+    "date": "1434",
+    "event": "Bitwa pod Lipanami",
+    "description": "Starcie, w którym połączone siły katolików i umiarkowanych husytów (utrakwistów) rozbiły radykalnych taborytów, kończąc wojny husyckie."
+  },
+  {
+    "date": "1444",
+    "event": "Bitwa pod Warną",
+    "description": "Tragiczna klęska armii chrześcijańskiej w starciu z Turakami osmańskimi; w bitwie ginie król Polski i Węgier Władysław Warneńczyk."
+  },
+  {
+    "date": "1448",
+    "event": "II bitwa na Kosowym Polu",
+    "description": "Turcy osmańscy rozbijają wojska węgierskie dowodzone przez Jana Hunyadyego, grzebiąc nadzieje na szybkie wyparcie islamu z Bałkanów."
+  },
+  {
+    "date": "1450",
+    "event": "Wynalazek druku",
+    "description": "Jan Gutenberg opracowuje ruchomą czcionkę drukarską, wywołując rewolucję informacyjną w Europie."
+  },
+  {
+    "date": "1453",
+    "event": "Upadek Konstantynopola",
+    "description": "Turcy osmańscy pod wodzą Mehmeda II zdobywają stolicę Bizancjum. Ostateczny upadek cesarstwa wschodniorzymskiego i symboliczny koniec średniowiecza."
+  },
+  {
+    "date": "1453",
+    "event": "Koniec wojny stuletniej",
+    "description": "Ostateczne wyparcie Anglików z Francji (z wyjątkiem Calais) bez podpisania oficjalnego traktatu pokojowego."
+  },
+  {
+    "date": "1455–1485",
+    "event": "Wojna Dwóch Róż",
+    "description": "Krwawa wojna domowa w Anglii o tron pomiędzy liniami Lancasterów (czerwona róża) i Yorków (biała róża)."
+  },
+  {
+    "date": "1479",
+    "event": "Małżeństwo Izabeli i Ferdynanda",
+    "description": "Unia dynastyczna Kastylii i Aragonii, dająca bezpośredni początek zjednoczonemu Królestwu Hiszpanii."
+  },
+  {
+    "date": "1492",
+    "event": "I wyprawa Krzysztofa Kolumba",
+    "description": "Kolumb dociera do wysp Bahama, szukając drogi do Indii. Umowna data odkrycia Ameryki i początku nowożytności."
+  }
+]

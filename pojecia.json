@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Arianizm",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Doktryna teologiczna Ariusza (IV w.), negująca równość Osób Trójcy Świętej (uznająca Chrystusa za istotę stworzoną, podrzędną Bogu Ojcu). Potępiona na soborze w Nicei w 325 r."
+  },
+  {
+    "title": "Edykt Mediolański (313 r.)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Wspólny dokument Konstantyna Wielkiego i Licyniusza, wprowadzający wolność religijną w Cesarstwie Rzymskim i kończący oficjalne prześladowania chrześcijan."
+  },
+  {
+    "title": "Inwestytura",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Formalne nadanie lenna wasalowi przez seniora. W kontekście kościelnym: nadawanie urzędów kościelnych (np. biskupstw) wraz z majątkiem przez władców świeckich, co wywołało słynny spór o inwestyturę."
+  },
+  {
+    "title": "Dictatus papae (1075 r.)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Sformułowany przez papieża Grzegorza VII w 1075 roku dokument zawierający 27 tez dotyczących prymatu władzy papieskiej nad świecką. Zakładał m.in., że papież może detronizować cesarzy."
+  },
+  {
+    "title": "Cezaropapizm",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "System relacji państwo-Kościół, w którym władza świecka (cesarz) dominuje nad władzą duchowną (religijną), decydując o sprawach doktrynalnych i obsadzie urzędów kościelnych. Charakterystyczny dla Bizancjum."
+  },
+  {
+    "title": "Papocezaryzm",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Zwierzchnictwo papieża nad władzą świecką; doktryna głosząca, że głowa Kościoła ma prawo kontrolować, a nawet odwoływać królów i cesarzy (kluczowy element reformy gregoriańskiej)."
+  },
+  {
+    "title": "Feudalizm",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "System społeczno-gospodarczy i polityczny oparty na podziale ziemi, więziach lennych i zależnościach osobistych między seniorami, wasalami a chłopami poddanymi."
+  },
+  {
+    "title": "Wasal",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Wolny człowiek, który składał hołd lenny seniorowi, zobowiązując się do wierności i pomocy militarnej (oraz doradztwa) w zamian za opiekę i nadanie ziemi (lenna)."
+  },
+  {
+    "title": "Senior",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Możnowładca lub król, który przyjmował ślubowanie wierności od wasala, otaczał go opieką i nadawał mu beneficjum (ziemię) jako źródło utrzymania."
+  },
+  {
+    "title": "Hołd lenny",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Uroczysta ceremonia, podczas której wasal klękał przed seniorem, wkładał swoje dłonie w jego ręce i składał przysięgę wierności, pieczętując zawarcie kontraktu lennego."
+  },
+  {
+    "title": "Beneficjum",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Czasowe lub dożywotnie nadanie ziemi (lub urzędu) przez seniora innej osobie w zamian za obowiązek pełnienia określonych służb, najczęściej wojskowych."
+  },
+  {
+    "title": "Komendacja",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Akt oddania się wolnego, ubogiego człowieka pod opiekę (patronat) potężnego pana (przyszłego seniora) w zamian za wierną służbę. Jeden z korzeni feudalizmu."
+  },
+  {
+    "title": "Immunitet",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Przywilej zwalniający dobra ziemskie (np. klasztorne lub rycerskie) spod władzy sądowniczej lub podatkowej urzędników królewskich (np. kasztelanów)."
+  },
+  {
+    "title": "Schizma wschodnia (1054 r.)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Trwały rozłam w chrześcijaństwie na Kościół katolicki (rzymski, zachodni) oraz Kościół prawosławny (ortodoksyjny, wschodni), przypieczętowany rzuceniem klątw przez legatów papieskich i patriarchę Konstantynopola."
+  },
+  {
+    "title": "Reforma gregoriańska",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Ruch odnowy Kościoła w XI wieku (związany z papieżem Grzegorzem VII), walczący z symonią, nikolaizmem i inwestyturę świecką, dążący do uniezależnienia i wywyższenia władzy papieża."
+  },
+  {
+    "title": "Symonia (Świętokupstwo)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Handel urzędami i godnościami kościelnymi oraz sakramentami lub dobrami duchowymi za pieniądze. Zjawisko ostro zwalczane przez reformę gregoriańską."
+  },
+  {
+    "title": "Nikolaizm",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Łamanie zasady celibatu przez duchownych i pozostawanie przez nich w związkach małżeńskich lub konkubinatach. Jeden z głównych problemów Kościoła w X-XI wieku."
+  },
+  {
+    "title": "Nepotyzm",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Faworyzowanie krewnych i obsadzanie nimi wysokich urzędów i godności (zwłaszcza kościelnych), bez względu na ich merytoryczne kwalifikacje."
+  },
+  {
+    "title": "Konkordat w Wormacji (1122 r.)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Ugoda między papieżem Kalikstem II a cesarzem Henrykiem V, kończąca zasadniczy spór o inwestyturę. Cesarz zrzekał się inwestytury duchowej pierścieniem i pastorałem."
+  },
+  {
+    "title": "Katarzy (Albigensi)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Ruch heretycki w XII-XIII w. w południowej Francji. Wyznawali radykalny dualizm (dobry świat duchowy vs zły świat materialny), odrzucali hierarchię kościelną i sakramenty."
+  },
+  {
+    "title": "Waldensi",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Ruch ubogich chrześcijan założony przez Piotra Waldo w Lyonie (XII w.). Postulowali powrót do ewangelicznego ubóstwa, swobodne czytanie Biblii i odrzucenie władzy papieża."
+  },
+  {
+    "title": "Inkwizycja",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Instytucja śledczo-sądownicza Kościoła katolickiego, powołana w XIII wieku do wykrywania, procesowania i zwalczania herezji, powierzona głównie dominikanom i franciszkanom."
+  },
+  {
+    "title": "Monarchia stanowa",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Forma ustroju politycznego pod koniec średniowiecza, w której władza monarchy była ograniczona na rzecz reprezentacji poszczególnych stanów (duchowieństwa, szlachty, mieszczaństwa)."
+  },
+  {
+    "title": "Magna Charta Libertatum (1215 r.)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Wielka Karta Swobód wydana przez Jana bez Ziemi. Ograniczała samowolę podatkową króla i gwarantowała, że żaden wolny człowiek nie może być uwięziony bez wyroku sądowego."
+  },
+  {
+    "title": "Złota Bulla (1356 r.)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Akt wydany przez cesarza Karola IV, regulujący ustrój Rzeszy Niemieckiej. Ustalał stały skład 7 elektorów (książąt i arcybiskupów) wybierających króla niemieckiego."
+  },
+  {
+    "title": "Stany Generalne",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Zgromadzenie stanowe we Francji, zwołane po raz pierwszy w 1302 r. przez Filipa IV Pięknego w celu uzyskania poparcia społeczeństwa w konflikcie z papieżem Bonifacym VIII."
+  },
+  {
+    "title": "Żakieria (1358 r.)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Krwawe i gwałtowne powstanie chłopskie we Francji w trakcie wojny stuletniej, wywołane uciskiem podatkowym, głodem oraz ogólnymi zniszczeniami wojennymi."
+  },
+  {
+    "title": "Niewola awiniońska (1309–1377)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Okres w historii Kościoła, w którym papieże rezydowali w Awinionie i byli silnie uzależnieni od królów Francji. Doprowadził do drastycznego spadku autorytetu papieństwa."
+  },
+  {
+    "title": "Wielka Schizma Zachodnia (1378–1417)",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Okres, w którym do władzy w Kościele rościło sobie prawo dwóch, a nawet trzech papieży jednocześnie (w Rzymie, Awinionie i Pizie). Rozłam zakończył dopiero sobór w Konstancji."
+  },
+  {
+    "title": "Konsyliaryzm",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Nurt w XV-wiecznej teologii, według którego najwyższą władzą w Kościele nie jest papież, lecz sobór powszechny. Rozwinął się w reakcji na kryzys wielkiej schizmy zachodniej."
+  },
+  {
+    "title": "Renesans karoliński",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Okres rozwoju kultury, edukacji i piśmiennictwa na przełomie VIII i IX wieku w państwie Karola Wielkiego. Wprowadzono wtedy m.in. jednolity kształt pisma – minuskułę karolińską."
+  },
+  {
+    "title": "Skryptorium",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Klasztorna pracownia, w której mnisi (kopieści) ręcznie przepisywali, tłumaczyli i bogato ilustrowali księgi oraz cenne dokumenty państwowe."
+  },
+  {
+    "title": "Scholastyka",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Filozofia szkolna dominująca na średniowiecznych uniwersytetach, dążąca do rozumowego (logicznego) udowodnienia i uzasadnienia dogmatów wiary chrześcijańskiej."
+  },
+  {
+    "title": "Trivium i Quadrivium",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Siedem sztuk wyzwolonych stanowiących podstawę edukacji. Trivium (gramatyka, retoryka, dialektyka) oraz Quadrivium (arytmetyka, geometria, muzyka, astronomia)."
+  },
+  {
+    "title": "Styl romański",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Styl w sztuce i architekturze XI-XII w. Cechy: grube mury, małe okna, okrągłe łuki, masywne wieże. Budowle pełniły często istotne funkcje obronne."
+  },
+  {
+    "title": "Styl gotycki",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Styl architektoniczny XII-XV w. Cechy: ostre łuki, sklepienia krzyżowo-żebrowe, wysokie wieże, wielkie okna z witrażami oraz zewnętrzny system przyporowy odciążający ściany."
+  },
+  {
+    "title": "Złota Orda",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Państwo mongolskie założone w XIII wieku przez Batu-chana na terenach stepów eurazjatyckich i Rusi, narzucające książętom ruskim surowe zwierzchnictwo lenne i trybuty."
+  },
+  {
+    "title": "Hanza",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Związek handlowy miast północnoniemieckich i bałtyckich (z Lubeką na czele), monopolizujący handel i transport morski w Europie Północnej w XIII-XV wieku."
+  },
+  {
+    "title": "Gildia",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Średniowieczne stowarzyszenie zrzeszające kupców działających w danym mieście, powołane w celu obrony ich interesów ekonomicznych, prawnych i osobistych."
+  },
+  {
+    "title": "Cech",
+    "category": "Teksty źródłowe / Pojęcia",
+    "description": "Przymusowa organizacja zrzeszająca rzemieślników tej samej specjalności w mieście, ściśle regulująca wielkość produkcji, ceny, jakość towarów oraz proces szkolenia uczniów."
+  }
+]

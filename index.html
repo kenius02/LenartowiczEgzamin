@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Historyczny - Lenartowicz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="countdown-container">
+    <h3>Do egzaminu:</h3>
+    <div id="countdown">Ładowanie...</div>
+</div>
+
+<div class="fixed-mode-toggle" id="globalModeToggle">
+    <span id="toggleText">Data ➔ Wydarzenie</span>
+    <label class="switch">
+        <input type="checkbox" id="modeToggle" onchange="handleModeChange()">
+        <span class="slider round"></span>
+    </label>
+</div>
+
+<div class="container">
+    <h1>📚 Historia Średniowieczna Powszechna</h1>
+    
+    <div class="nav-tabs">
+        <button class="tab-btn active" onclick="switchTab('dates', this)">📅 Fiszki z Dat</button>
+        <button class="tab-btn" onclick="switchTab('match', this)">🛡️ Dopasuj pary</button>
+        <button class="tab-btn" onclick="switchTab('terms', this)">🧠 Pojęcia</button>
+        <button class="tab-btn" onclick="switchTab('quiz', this)">📜 Spis Zagadnień</button>
+    </div>
+
+    <div id="tab-dates" class="tab-content active-content">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <p id="progressText">Karta 1 / 1</p>
+
+        <div class="card" id="card" onclick="flipCard()" role="button" tabindex="0" aria-label="Obróć kartę dat">
+            <div class="card-inner">
+                <div class="card-front">
+                    <span class="label">DATA</span>
+                    <h2 id="front"></h2>
+                    <p>Kliknij kartę lub wciśnij Spację</p>
+                </div>
+                <div class="card-back">
+                    <span class="label">WYDARZENIE</span>
+                    <h2 id="event"></h2>
+                    <p id="desc"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="good-btn" onclick="answer(true); event.stopPropagation();">✅ Umiem (➔ / D)</button>
+            <button class="bad-btn" onclick="answer(false); event.stopPropagation();">❌ Nie umiem (⬅ / A)</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <span>Opanowane</span>
+                <h3 id="goodCount">0</h3>
+            </div>
+            <div class="stat-card">
+                <span>Do powtórki</span>
+                <h3 id="badCount">0</h3>
+            </div>
+        </div>
+
+        <div class="cheat-sheet-section">
+            <button onclick="toggleCheatSheet()" class="btn btn-secondary toggle-btn" aria-label="Otwórz szybką ściągawkę">
+                🔍 Otwórz szybką ściągawkę (Baza dat)
+            </button>
+            <div id="cheatSheetContainer" class="cheat-sheet-container hidden">
+                <input type="text" id="cheatSearch" class="search-input" oninput="searchCheatSheet()" placeholder="Wpisz rok lub słowo kluczowe..." aria-label="Wyszukaj w bazie dat">
+                <div class="table-wrapper">
+                    <table id="cheatTable">
+                        <thead>
+                            <tr><th>Data</th><th>Wydarzenie</th><th>Opis</th></tr>
+                        </thead>
+                        <tbody id="cheatTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="tab-terms" class="tab-content">
+        <div class="progress-container"><div class="progress-bar" id="progressBarTerms"></div></div>
+        <p id="progressTextTerms">Pojęcie 1 / 1</p>
+
+        <div class="card term-card" id="termCard" onclick="flipTermCard()" role="button" tabindex="0" aria-label="Obróć kartę pojęcia">
+            <div class="card-inner">
+                <div class="card-front">
+                    <span class="label" id="termLabelFront">POJĘCIE</span>
+                    <h2 id="termFront" class="term-title"></h2>
+                    <p class="card-hint">Kliknij, aby odkryć wyjaśnienie</p>
+                </div>
+                <div class="card-back">
+                    <span class="label" id="termLabelBack">WYJAŚNIENIE</span>
+                    <p id="termDesc" class="term-description"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="good-btn" onclick="answerTerm(true); event.stopPropagation();">✅ Umiem</button>
+            <button class="bad-btn" onclick="answerTerm(false); event.stopPropagation();">❌ Nie umiem</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card"><span>Opanowane</span><h3 id="goodCountTerms">0</h3></div>
+            <div class="stat-card"><span>Do powtórki</span><h3 id="badCountTerms">0</h3></div>
+        </div>
+    </div>
+
+    <div id="tab-match" class="tab-content">
+        <div class="match-panel">
+            <div class="match-header">
+                <div id="matchStatus" class="match-status">Uruchom grę i dopasuj pary.</div>
+                <button id="startMatchBtn" onclick="startMatchingPairs()" class="btn btn-primary">Rozpocznij</button>
+            </div>
+            <p class="section-note">Wszystkie karty są widoczne od razu. Kliknij dwie pasujące do siebie karty: datę i wydarzenie.</p>
+            <div id="matchContainer" class="match-container hidden">
+                <div id="matchBoard" class="match-board"></div>
+                <button id="matchRestartBtn" onclick="startMatchingPairs()" class="btn btn-primary btn-full hidden">
+                    🔄 Spróbuj ponownie
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="tab-quiz" class="tab-content">
+        <div class="action-bar">
+            <button id="startQuizBtn" onclick="startQuiz()" class="btn btn-primary btn-full quiz-start-btn" aria-label="Uruchom interaktywny quiz">
+                🎯 Uruchom interaktywny Quiz ABCD / Prawda-Fałsz
+            </button>
+            <button id="backToTopicsBtn" onclick="exitQuiz()" class="btn btn-secondary btn-full" aria-label="Zamknij test i wróć do spisu zagadnień">
+                ⬅️ Zamknij test i wróć do spisu zagadnień
+            </button>
+        </div>
+
+        <div id="topicsList">
+            <p class="section-note">Kliknij interesujące Cię zagadnienie opisowe z egzaminu, aby rozwinąć pigułkę wiedzy.</p>
+            <input type="text" id="vademecumSearch" class="search-input" oninput="searchVademecum()" placeholder="Wyszukaj zagadnienie (np. Krucjaty, Frankowie)..." aria-label="Wyszukaj zagadnienie">
+            <div id="vademecumAccordion" class="accordion-container"></div>
+        </div>
+
+        <div id="quizContainer" class="quiz-panel hidden">
+            <div id="quizProgress" class="quiz-progress"></div>
+            <h3 id="quizQuestion" class="quiz-question"></h3>
+            <div id="quizAnswers" class="quiz-answers"></div>
+            <div id="quizFeedback" class="quiz-feedback" aria-live="polite"></div>
+            <button id="nextQuestionBtn" onclick="nextQuestion()" class="btn btn-primary btn-full quiz-nav-btn hidden">
+                Następne pytanie ➡️
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<div id="restoreModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h2>⏱️ Przerwana nauka</h2>
+        <p>Masz zapisaną niedokończoną sesję dat.</p>
+        <p id="restoreModalText" class="modal-text">Karta X / Y</p>
+        <hr>
+        <div class="modal-actions">
+            <button onclick="handleRestoreDecision(true)" class="btn btn-primary">Kontynuuj</button>
+            <button onclick="handleRestoreDecision(false)" class="btn btn-secondary">Od nowa</button>
+        </div>
+    </div>
+</div>
+
+<div id="confirmModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h2 class="modal-warning-heading">⚠️ Zmiana trybu</h2>
+        <p>Zmiana trybu w trakcie nauki zresetuje Twój obecny postęp i wymiesza karty od nowa.</p>
+        <hr>
+        <div class="modal-actions">
+            <button onclick="confirmResetAction(true)" class="btn btn-danger">Tak, resetuj</button>
+            <button onclick="confirmResetAction(false)" class="btn btn-secondary">Anuluj</button>
+        </div>
+    </div>
+</div>
+
+<div id="statsModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h2>🎉 Gratulacje!</h2>
+        <p id="statsModalType">Przerobiłeś całą bazę.</p>
+        <hr>
+        <div class="modal-stats-details">
+            <p>📊 <strong>Łącznie:</strong> <span id="modalTotal">0</span></p>
+            <p>✨ <strong>Za 1. razem:</strong> <span id="modalCorrect">0</span></p>
+            <p>🎯 <strong>Wskaźnik zapamiętania:</strong> <span id="modalAccuracy">0</span>%</p>
+        </div>
+        <button onclick="closeModal()" class="btn btn-primary btn-full" style="margin-top: 20px;">Zacznij od nowa</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
