@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal Historyczny - Lenartowicz</title>
+    <title>EgzaminLenartowicz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,6 +36,7 @@
         <button class="tab-btn" onclick="switchTab('match', this)">🛡️ Dopasuj pary</button>
         <button class="tab-btn" onclick="switchTab('terms', this)">🧠 Pojęcia</button>
         <button class="tab-btn" onclick="switchTab('quiz', this)">📜 Spis Zagadnień</button>
+        <button class="tab-btn" onclick="switchTab('stats', this)">📊 Twój Profil</button>
     </div>
 
     <div id="tab-dates" class="tab-content active-content">
@@ -49,7 +50,7 @@
                 <div class="card-front">
                     <span class="label">DATA</span>
                     <h2 id="front"></h2>
-                    <p>Kliknij kartę lub wciśnij Spację</p>
+                    <p class="card-hint" id="datesHint">Kliknij kartę lub wciśnij Spację</p>
                 </div>
                 <div class="card-back">
                     <span class="label">WYDARZENIE</span>
@@ -91,9 +92,44 @@
                 </div>
             </div>
         </div>
-
     </div>
 
+    <div id="tab-stats" class="tab-content">
+    <div class="stats-profile-container" style="text-align: center; padding: 20px;">
+        <h2>🔥 Twoja Seria Nauki</h2>
+        <div style="font-size: 3rem; margin: 10px 0;">
+            <span id="streakDays">0 dni</span> 🎉
+        </div>
+        <p id="streakMessage" style="color: #666;">Zacznij naukę, aby uruchomić swój codzienny licznik serii!</p>
+        
+        <hr style="margin: 25px 0; border: 0; border-top: 1px solid #444;">
+        
+        <h2>🛡️ Twój Status Społeczny</h2>
+        <h1 id="playerRank" style="color: #ffca28; font-size: 2.5rem; margin: 5px 0; font-family: 'Uncial Antiqua', serif;">Chłop Pańszczyźniany</h1>
+        <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 15px;">Poziom napędzany Twoim zdobytym XP</p>
+        
+        <div style="background: #222; border-radius: 10px; height: 20px; width: 80%; margin: 0 auto; overflow: hidden; border: 1px solid #555;">
+            <div id="rankProgressBar" style="background: linear-gradient(90deg, #ff9800, #ffca28); height: 100%; width: 0%; transition: width 0.5s ease;"></div>
+        </div>
+        <p id="rankProgressText" style="font-size: 0.85rem; color: #888; margin-top: 5px;">0 / 100 XP do następnej rangi</p>
+
+        <hr style="margin: 25px 0; border: 0; border-top: 1px solid #444;">
+        
+        <h2>📊 Szczegóły Wytrwałości</h2>
+        <div style="display: flex; justify-content: space-around; margin-top: 15px;">
+            <div>
+                <h3 style="color: #28a745; font-size: 2rem;" id="globalGood">0</h3>
+                <p style="color: #ccc; margin: 0; font-size: 0.9rem;">Opanowane pojęcia</p>
+            </div>
+            <div>
+                <h3 style="color: #007bff; font-size: 2rem;" id="globalXP">0</h3>
+                <p style="color: #ccc; margin: 0; font-size: 0.9rem;">Łączne XP</p>
+            </div>
+        </div>
+        
+        <button class="btn btn-secondary" onclick="resetGlobalStats()" style="margin-top: 30px; font-size: 0.8rem;">Resetuj postać</button>
+    </div>
+</div>
     <div id="tab-terms" class="tab-content">
         <div class="progress-container"><div class="progress-bar" id="progressBarTerms"></div></div>
         <p id="progressTextTerms">Pojęcie 1 / 1</p>
@@ -103,7 +139,7 @@
                 <div class="card-front">
                     <span class="label" id="termLabelFront">POJĘCIE</span>
                     <h2 id="termFront" class="term-title"></h2>
-                    <p class="card-hint">Kliknij, aby odkryć wyjaśnienie</p>
+                    <p class="card-hint" id="termsHint">Kliknij, aby odkryć wyjaśnienie</p>
                 </div>
                 <div class="card-back">
                     <span class="label" id="termLabelBack">WYJAŚNIENIE</span>
@@ -129,11 +165,11 @@
                 <div id="matchStatus" class="match-status">Uruchom grę i dopasuj pary.</div>
                 <button id="startMatchBtn" onclick="startMatchingPairs()" class="btn btn-primary">Rozpocznij</button>
             </div>
-            <p class="section-note">Wszystkie karty są widoczne od razu. Kliknij dwie pasujące do siebie karty: datę i wydarzenie.</p>
+            <p class="section-note">Kliknij dwie pasujące do siebie karty: datę i wydarzenie.</p>
             <div id="matchContainer" class="match-container hidden">
                 <div id="matchBoard" class="match-board"></div>
                 <button id="matchRestartBtn" onclick="startMatchingPairs()" class="btn btn-primary btn-full hidden">
-                    🔄 Spróbuj ponownie
+                    🔄 Spróbuj ponownie 
                 </button>
             </div>
         </div>
@@ -144,7 +180,7 @@
             <button id="startQuizBtn" onclick="startQuiz()" class="btn btn-primary btn-full quiz-start-btn" aria-label="Uruchom interaktywny quiz">
                 🎯 Uruchom interaktywny Quiz ABCD / Prawda-Fałsz
             </button>
-            <button id="backToTopicsBtn" onclick="exitQuiz()" class="btn btn-secondary btn-full" aria-label="Zamknij test i wróć do spisu zagadnień">
+            <button id="backToTopicsBtn" onclick="exitQuiz()" class="btn btn-secondary btn-full hidden" aria-label="Zamknij test i wróć do spisu zagadnień">
                 ⬅️ Zamknij test i wróć do spisu zagadnień
             </button>
         </div>
@@ -195,7 +231,7 @@
 
 <div id="statsModal" class="modal" style="display: none;">
     <div class="modal-content">
-        <h2>🎉 Gratulacje!</h2>
+        <h2>🎉 Gratulacje Ptysiu!</h2>
         <p id="statsModalType">Przerobiłeś całą bazę.</p>
         <hr>
         <div class="modal-stats-details">

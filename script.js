@@ -8,6 +8,42 @@ let quizData = [];
 let currentQuestionIndex = 0;
 let userScore = 0;
 let currentActiveTopicId = null;
+let hintHidden = {
+    dates: false,
+    terms: false
+};
+
+// Wywołaj tę funkcję na samym starcie w DOMContentLoaded
+function checkStreak() {
+    const today = new Date().toDateString();
+    const lastVisit = localStorage.getItem('lastVisitDate');
+    let streak = parseInt(localStorage.getItem('studyStreak')) || 0;
+
+    if (!lastVisit) {
+        // Pierwsza wizyta w ogóle
+        streak = 1;
+    } else {
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yesterdayString = yesterday.toDateString();
+
+        if (lastVisit === yesterdayString) {
+            // Użytkownik wszedł dzień po dniu - zwiększamy streak
+            streak++;
+        } else if (lastVisit !== today) {
+            // Użytkownik opuścił dzień lub więcej - reset do 1
+            streak = 1;
+        }
+    }
+
+    localStorage.setItem('studyStreak', streak);
+    localStorage.setItem('lastVisitDate', today);
+
+    const streakDaysElement = document.getElementById('streakDays');
+    if (streakDaysElement) {
+        streakDaysElement.textContent = streak;
+    }
+} 
 
 const matchState = {
     dateCards: [],
@@ -81,6 +117,71 @@ async function initApp() {
 
 initApp();
 
+function updateStatsDashboard() {
+    const globalGood = parseInt(localStorage.getItem('globalGoodCount')) || 0;
+    const globalXP = parseInt(localStorage.getItem('globalXP')) || 0;
+    const streak = localStorage.getItem('studyStreak') || 0;
+
+    // 1. Definiujemy progi poziomów (XP) i odpowiadające im rangi średniowieczne
+    const ranks = [
+        { minXP: 0,   maxXP: 100,  title: "Chłop Pańszczyźniany 🌾" },
+        { minXP: 100, maxXP: 250,  title: "Mieszczanin" },
+        { minXP: 250, maxXP: 500,  title: "Skryba 📜" },
+        { minXP: 500, maxXP: 900,  title: "Pasowany Rycerz ⚔️" },
+        { minXP: 900, maxXP: 1500, title: "Możnowładca🏰" },
+        { minXP: 1500, maxXP: 99999,title: "Cesarz Uniwersalny 👑" }
+    ];
+
+    // 2. Szukamy aktualnej rangi gracza na podstawie XP
+    let currentRank = ranks[0];
+    for (let i = 0; i < ranks.length; i++) {
+        if (globalXP >= ranks[i].minXP && globalXP < ranks[i].maxXP) {
+            currentRank = ranks[i];
+            break;
+        }
+    }
+    // Obsługa maksymalnego poziomu
+    if (globalXP >= 1500) currentRank = ranks[ranks.length - 1];
+
+    // 3. Obliczanie procentu paska postępu do kolejnego poziomu
+    let percent = 0;
+    if (currentRank.maxXP !== 99999) {
+        const xpInCurrentLevel = globalXP - currentRank.minXP;
+        const xpRequiredForLevel = currentRank.maxXP - currentRank.minXP;
+        percent = Math.floor((xpInCurrentLevel / xpRequiredForLevel) * 100);
+    } else {
+        percent = 100; // Maksymalny poziom
+    }
+
+    // 4. Aktualizacja elementów interfejsu na ekranie
+    if (document.getElementById('streakDays')) {
+        document.getElementById('streakDays').textContent = streak === "1" ? "1 dzień" : `${streak} dni`;
+    }
+    if (document.getElementById('globalGood')) document.getElementById('globalGood').textContent = globalGood;
+    if (document.getElementById('globalXP')) document.getElementById('globalXP').textContent = globalXP;
+    
+    // Aktualizacja RPG
+    if (document.getElementById('playerRank')) document.getElementById('playerRank').textContent = currentRank.title;
+    if (document.getElementById('rankProgressBar')) document.getElementById('rankProgressBar').style.width = `${percent}%`;
+    
+    if (document.getElementById('rankProgressText')) {
+        if (currentRank.maxXP !== 99999) {
+            document.getElementById('rankProgressText').textContent = `${globalXP} / ${currentRank.maxXP} XP do następnej rangi (${percent}%)`;
+        } else {
+            document.getElementById('rankProgressText').textContent = `Osiągnąłeś szczyt feudalnej hierarchii!`;
+        }
+    }
+
+    // Korekta komunikatu o streaku
+    const streakMessage = document.getElementById('streakMessage');
+    if (streakMessage) {
+        const sNum = parseInt(streak) || 0;
+        if (sNum >= 3) streakMessage.textContent = "Seria płonie! Lenartowicz drży przed Twoją wiedzą! 🔥";
+        else if (sNum > 0) streakMessage.textContent = "Dobra passa rozpoczęta. Zaglądaj tu codziennie!";
+        else streakMessage.textContent = "Zrób chociaż kilka kart dzisiaj, aby rozpocząć serię!";
+    }
+}
+
 function updateCountdown() {
     const examDate = new Date('July 9, 2026 12:30:00').getTime();
     const countdown = $('countdown');
@@ -120,6 +221,9 @@ function switchTab(tabId, element) {
     if (tabId !== 'quiz') exitQuiz();
     if (tabId !== 'match') exitMatchingPairs();
     setDisplay('globalModeToggle', tabId === 'dates' ? 'block' : 'none');
+    if (tabId === 'stats') {
+        updateStatsDashboard();
+    }
 }
 
 function renderFlashCard(type) {
@@ -180,24 +284,37 @@ function renderFlashCard(type) {
 
 function flipCard() {
     $('card')?.classList.toggle('flipped');
+
+    if (!hintHidden.dates) {
+        const hint = $('datesHint');
+        if (hint) hint.style.display = 'none';
+        hintHidden.dates = true;
+    }
 }
 
 function flipTermCard(evt) {
     const now = Date.now();
     if (now - _termFlipLast < 300) return;
     _termFlipLast = now;
-    if (_termFlipLocked) { return; }
-    if (evt && evt.preventDefault) try { evt.preventDefault(); evt.stopPropagation(); } catch (e) {}
+
+    if (_termFlipLocked) return;
+
     const termCard = $('termCard');
     if (!termCard) return;
-    // debug: termCard exists
+
     const inner = termCard.querySelector('.card-inner');
-    // debug: inner element present -> %s
     const flipped = termCard.classList.toggle('flipped');
-    // flip toggled: %s
+
     if (inner) {
         inner.classList.toggle('flipped', flipped);
         inner.style.transform = flipped ? 'rotateY(180deg)' : 'none';
+    }
+
+    // 👇 DODAJ TO
+    if (!hintHidden.terms) {
+        const hint = $('termsHint');
+        if (hint) hint.style.display = 'none';
+        hintHidden.terms = true;
     }
 }
 
@@ -228,6 +345,11 @@ function bindTermCardFlip() {
 window.addEventListener('DOMContentLoaded', () => {
     try { bindTermCardFlip(); } catch (e) { /* bind failed */ }
 });
+document.addEventListener('DOMContentLoaded', () => {
+    checkStreak(); 
+    updateStatsDashboard(); 
+    
+});
 
 // Also attempt immediate binding as script is at page end
 try { bindTermCardFlip(); } catch (e) {}
@@ -246,10 +368,23 @@ function answerFlash(type, correct) {
     if (!pool.length || state.currentIndex >= pool.length) return;
 
     const card = pool[state.currentIndex];
-    if (correct) state.good++; else {
+    
+    // === SYSTEM STATYSTYK XP ===
+    // 1. Niezależnie od odpowiedzi: dodajemy 1 XP za samą próbę i wysiłek!
+    let totalXP = parseInt(localStorage.getItem('globalXP')) || 0;
+    localStorage.setItem('globalXP', totalXP + 1);
+
+    // 2. Jeśli poprawnie - dodajemy do bazy sukcesów
+    if (correct) {
+        state.good++;
+        let gGood = parseInt(localStorage.getItem('globalGoodCount')) || 0;
+        localStorage.setItem('globalGoodCount', gGood + 1);
+    } else {
         state.bad++;
         if (!state.badCards.includes(card)) state.badCards.push(card);
+        // Błędów globalnych już NIE zapisujemy do localStorage – zostają tylko w tej lokalnej sesji!
     }
+    // ============================
 
     const ids = getFlashIds(type);
     if ($(ids.good)) $(ids.good).innerText = state.good;
@@ -414,6 +549,10 @@ function handleMatchClick(cardId) {
         matchState.matches += 1;
         matchState.selected = [];
         updateMatchStatus(`Dobrze! Para ${matchState.matches} / ${matchState.totalPairs}.`);
+        let totalXP = parseInt(localStorage.getItem('globalXP')) || 0;
+        localStorage.setItem('globalXP', totalXP + 2); // +5 za każdą parę
+        updateStatsDashboard();
+
         if (matchState.matches === matchState.totalPairs) {
             $('matchRestartBtn')?.classList.remove('hidden');
             updateMatchStatus(`Brawo! Udało się dopasować wszystkie ${matchState.totalPairs} par.`);
@@ -602,6 +741,11 @@ function renderQuizResult() {
     $('quizProgress').innerText = '🏁 Koniec testu!';
     const percentage = (userScore / quizData.length) * 100;
     const isMini = currentActiveTopicId !== null;
+    
+    // !!! POPRAWKA: Zapamiętujemy aktualne ID tematu w stałej lokalnej, 
+    // zanim zmienna globalna zostanie wyzerowana.
+    const topicIdToRepeat = currentActiveTopicId; 
+
     const sentiment = percentage < 50
         ? ['❌ Chuja umiesz, ucz się dalej! Z taką wiedzą nawet nie podchodź.', '#ef4444']
         : percentage < 80
@@ -623,7 +767,10 @@ function renderQuizResult() {
     retryBtn.className = 'show-btn';
     retryBtn.style.cssText = 'background: #fbbf24; color: #0f172a; font-weight: bold; font-size: 1.1rem; padding: 15px; width: 100%; margin-top: 10px; border-radius: 6px; cursor: pointer;';
     retryBtn.innerText = isMini ? '🔄 Powtórz ten temat' : '🔄 Spróbuj ponownie (Wylosuj nowe 10 pytań)';
-    retryBtn.onclick = () => isMini ? startMiniQuiz(currentActiveTopicId) : startQuiz();
+    
+    // !!! POPRAWKA: Przekazujemy bezpieczną stałą `topicIdToRepeat` zamiast zmiennej globalnej
+    retryBtn.onclick = () => isMini ? startMiniQuiz(topicIdToRepeat) : startQuiz();
+    
     answersDiv.appendChild(retryBtn);
     if (isMini) {
         const backBtn = $('backToTopicsBtn');
@@ -633,7 +780,7 @@ function renderQuizResult() {
             backBtn.classList.add('highlight');
             try { backBtn.focus(); } catch (e) {}
         }
-        currentActiveTopicId = null;
+        currentActiveTopicId = null; // Teraz wyzerowanie tutaj jest już bezpieczne!
     }
 }
 
@@ -682,20 +829,25 @@ function checkAnswer(selectedIndex, clickedBtn) {
     const nextBtn = $('nextQuestionBtn');
     Array.from(buttons).forEach(btn => btn.disabled = true);
 
+    // --- SYSTEM XP DLA QUIZU ---
+    let totalXP = parseInt(localStorage.getItem('globalXP')) || 0;
     if (selectedIndex === q.correct) {
         clickedBtn.style.background = '#16a34a';
         setQuizFeedback('✨ Dobra odpowiedź!', 'success');
         userScore++;
+        localStorage.setItem('globalXP', totalXP + 5); // +5 za sukces
     } else {
         clickedBtn.style.background = '#dc2626';
         if (buttons[q.correct]) buttons[q.correct].style.background = '#16a34a';
         setQuizFeedback(`❌ Błąd. Prawidłowa odpowiedź to: ${q.answers[q.correct]}`, 'error');
+        localStorage.setItem('globalXP', totalXP + 1); // +1 za wysiłek
     }
+    updateStatsDashboard(); // Aktualizacja widoku w profilu
+    // ---------------------------
 
     if (nextBtn) {
         nextBtn.classList.remove('hidden');
         nextBtn.style.display = 'inline-block';
-        nextBtn.innerText = currentQuestionIndex === quizData.length - 1 ? 'Zobacz wynik 🏁' : 'Następne pytanie ➡️';
     }
 }
 
@@ -854,3 +1006,13 @@ window.addEventListener('keydown', event => {
         else if (key === 'arrowright' || key === 'd') answerFlash('terms', true);
     }
 });
+
+function resetGlobalStats() {
+    if (confirm("Czy na pewno chcesz zresetować serię dni, punkty XP oraz statystyki profilu?")) {
+        localStorage.setItem('globalGoodCount', 0);
+        localStorage.setItem('globalXP', 0);
+        localStorage.setItem('studyStreak', 0);
+        localStorage.removeItem('lastVisitDate'); 
+        updateStatsDashboard();
+    }
+}

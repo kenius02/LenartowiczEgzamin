@@ -1,733 +1,1604 @@
-[
+
 {
   "1": [
-    {
-      "question": "W którym roku Odoaker zdetronizował Romulusa Augustulusa, co uznaje się za upadek Cesarstwa Zachodniorzymskiego?",
-      "answers": ["395 r.", "451 r.", "476 r.", "496 r."],
-      "correct": 2
-    },
-    {
-      "question": "Prawda czy Fałsz: Wielka Wędrówka Ludów została zapoczątkowana przez najazd Hunów na Europę w 375 roku.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0
-    },
-    {
-      "question": "Które z plemion barbarzyńskich założyło swoje królestwo sukcesyjne w Afryce Północnej?",
-      "answers": ["Ostrogoci", "Wizygoci", "Wandalowie", "Frankowie"],
-      "correct": 2
-    },
-    {
-      "question": "Gdzie swoje państwo po upadku Rzymu założyli Wizygoci?",
-      "answers": ["W Italii", "W Hiszpanii", "W Galii", "W Brytanii"],
-      "correct": 1
-    },
-    {
-      "question": "Prawda czy Fałsz: Odoaker po obaleniu ostatniego cesarza odesłał insygnia władzy cesarskiej do Konstantynopola.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0
-    }
-  ],
+  {
+    "question": "Które z podanych wydarzeń jest najpowszechniej uznawane w klasycznej periodyzacji za symboliczny początek średniowiecza?",
+    "answers": ["Bitwa pod Adrianopolem (378 r.)","Upadek Cesarstwa Zachodniorzymskiego (476 r.)", "Chrzest Chlodwiga (496 r.)","Koronacja cesarska Karola Wielkiego (800 r.)"],
+    "correct": 1
+  },
+  {
+    "question": "Które z poniższych wydarzeń NIE jest tradycyjnie wymieniane jako symboliczna data końca średniowiecza?",
+    "answers": [ "Zdobycie Konstantynopola przez Turków (1453 r.)", "Odkrycie Ameryki przez Krzysztofa Kolumba (1492 r.)", "Wystąpienie Marcina Lutra i początek Reformacji (1517 r.)",  "Wybuch wojny stuletniej (1337 r.)" ],
+    "correct": 3
+  },
+  {
+    "question": "Jak Roman Michałowski (w duchu współczesnej mediewistyki) definiuje początek średniowiecza w opozycji do teorii o nagłym 'upadku cywilizacji'?",
+    "answers": [ "Jako powolny, wieloaspektowy proces transformacji i syntezy świata antycznego z barbarzyńskim", "Jako gwałtowną katastrofę kulturową, która całkowicie wymazała dorobek Rzymu", "Jako sztuczną cezurę, która w rzeczywistości nie przyniosła żadnych zmian ustrojowych", "Jako moment, w którym gospodarka pieniężna została natychmiast zastąpiona handlem zamiennym"  ],
+    "correct": 0
+  },
+  {
+    "question": "Na jakie trzy główne podokresy dzieli się średniowiecze w powszechnej historiografii?",
+    "answers": [ "Okres przedromański, romański i gotycki", "Średniowiecze wczesne, pełne (rozkwit) oraz późne", "Epokę karolińską, ottońską i feudalną", "Średniowiecze pogańskie, chrześcijańskie i schizmatyckie"   ],
+    "correct": 1
+  },
+  {
+    "question": "Jakie ramy stuleci przyjmuje się zazwyczaj w historiografii dla okresu 'pełnego średniowiecza' (klasycznego rozkwitu epoki)?",
+    "answers": [
+      "Od V do X wieku",
+      "Od XI do XIII wieku",
+      "Od XIV do XV wieku",
+      "Od XII do XVI wieku"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Pojęcie 'średniowiecza' (media aetas) zostało ukute w samej tej epoce przez uczonych na dworze Karola Wielkiego.",
+    "answers": [ "Prawda", "Fałsz" ],
+    "correct": 1
+  }
+],
   "2": [
-    {
-      "question": "W którym roku król Franków Chlodwig przyjął chrzest w obrządku katolickim?",
-      "answers": ["476 r.", "496 r.", "500 r.", "732 r."],
-      "correct": 1
-    },
-    {
-      "question": "Z jakiej dynastii wywodził się zjednoczyciel Franków, Chlodwig?",
-      "answers": ["Karolingów", "Merowingów", "Kapetyngów", "Ludolfingów"],
-      "correct": 1
-    },
-    {
-      "question": "Kim byli majordomowie w państwie Franków za późnych Merowingów?",
-      "answers": ["Dowódcami straży królewskiej", "Zarządcami pałacu, którzy przejęli realną władzę w państwie", "Duchownymi doradcami króla", "Sędziami najwyższymi"],
-      "correct": 1
-    },
-    {
-      "question": "Prawda czy Fałsz: Karol Młot był królem Franków, który osobiście obalił dynastię Merowingów.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1
-    },
-    {
-      "question": "Kto dowodził wojskami frankijskimi w zwycięskiej bitwie pod Poitiers w 732 roku?",
-      "answers": ["Chlodwig", "Pepin Krótki", "Karol Młot", "Karol Wielki"],
-      "correct": 2
-    }
-  ],
+  {
+    "question": "W którym roku Odoaker zdetronizował Romulusa Augustulusa, co uznaje się za symboliczny upadek Cesarstwa Zachodniorzymskiego?",
+    "answers": ["395 r.", "451 r.", "476 r.", "496 r."],
+    "correct": 2
+  },
+  {
+    "question": " Wielka Wędrówka Ludów została zapoczątkowana przez najazd Hunów na Europę Wschodnią około 375 roku.",
+    "answers": ["Prawda", "Fałsz"],
+    "correct": 0
+  },
+  {
+    "question": "Które z plemion barbarzyńskich założyło swoje królestwo sukcesyjne w Afryce Północnej i w 455 roku dokonało złupienia Rzymu?",
+    "answers": ["Ostrogoci", "Wizygoci", "Wandalowie", "Frankowie"],
+    "correct": 2
+  },
+  {
+    "question": "Gdzie swoje trwałe państwo po opuszczeniu Galii i bitwie pod Vouillé (507 r.) założyli Wizygoci?",
+    "answers": ["W Italii", "W Hiszpanii (na Półwyspie Iberyjskim)", "W Brytanii", "W Afryce Północnej"],
+    "correct": 1
+  },
+  {
+    "question": " Odoaker po obaleniu ostatniego cesarza zachodniorzymskiego odesłał insygnia władzy cesarskiej do Konstantynopola, uznając zwierzchność tamtejszego cesarza.",
+    "answers": ["Prawda", "Fałsz"],
+    "correct": 0
+  },
+  {
+    "question": "W jakich latach trwał tzw. 'kryzys III wieku' w Imperium Rzymskim, charakteryzujący się anarchią wojskową i rządami cesarzy-żołnierzy?",
+    "answers": ["284–305 n.e.", "476–500 n.e.", "235–284 n.e.", "117–138 n.e."],
+    "correct": 2
+  },
+  {
+    "question": "System tetrarchii (rządów czterech), mający na celu uratowanie zdestabilizowanego Imperium Rzymskiego poprzez podział obowiązków obronnych, został wprowadzony przez:",
+    "answers": ["Konstantyna Wielkiego", "Dioklecjana", "Teodozjusza Wielkiego", "Romulusa Augustulusa"],
+    "correct": 1
+  },
+  {
+    "question": "Który władca Ostrogotów, rządzący Italią na przełomie V i VI wieku, był znany z dbałości o rzymskie tradycje ustrojowe, administrację oraz współpracę z rzymskimi elitami (np. Kasjodorem)?",
+    "answers": ["Alaryk", "Genzeryk", "Teodoryk Wielki", "Chlodwig"],
+    "correct": 2
+  },
+  {
+    "question": "W 451 roku na Polach Katalaunijskich rzymski wódz Aecjusz oraz Wizygoci powstrzymali najazd Hunów. Kto stał wtedy na czele Hunów jako ich król?",
+    "answers": ["Attyla", "Odoaker", "Fritigern", "Alaryk"],
+    "correct": 0
+  }
+],
   "3": [
     {
-      "question": "W którym roku Pepin Krótki oficjalnie obalił Merowingów i zapoczątkował dynastię Karolingów?",
-      "answers": ["732 r.", "751 r.", "756 r.", "800 r."],
+      "question": "Co stanowiło istotę kontraktu lennego w klasycznym systemie feudalnym?",
+      "answers": ["Jednostronne podporządkowanie chłopa władzy króla", "Obustronna relacja zobowiązań: opieka seniora w zamian za wierność i służbę wasala", "Umowa handlowa dotycząca wyłącznie zakupu ziemi", "Przymusowe wcielenie jeńców do armii"],
       "correct": 1
     },
     {
-      "question": "Jakie państwo powstało w 756 roku z ziem odebranych Longobardom przez Pepina Krótkiego?",
-      "answers": ["Państwo Kościelne", "Królestwo Italii", "Marchia Hiszpańska", "Księstwo Spoleto"],
+      "question": "Jak nazywał się uroczysty akt rytualny, podczas którego wasal składał przysięgę wierności i klękał przed seniorem?",
+      "answers": ["Prekaria", "Inwestytura", "Homagium (hołd lenny)", "Komendacja"],
+      "correct": 2
+    },
+    {
+      "question": "Czym w średniowiecznym prawie różniło się alodium od beneficjum (lenna)?",
+      "answers": ["Alodium było pełną, wolną i dziedziczną własnością ziemi bez zobowiązań lennych", "Alodium było ziemią należącą wyłącznie do Kościoła", "Beneficjum było własnością bezwarunkową, a alodium czasową", "To synonimy określające ziemię pańszczyźnianą"],
       "correct": 0
     },
     {
-      "question": "Prawda czy Fałsz: Karol Wielki podzielił swoje państwo na hrabstwa wewnątrz kraju oraz marchie na terenach nadgranicznych.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Jak w prawie wczesnośredniowiecznym nazywano umowę, na mocy której wolny człowiek oddawał się pod opiekę potężnego pana?",
+      "answers": ["Komendacja", "Suwerenność", "Uzufrunkt", "Alodium"],
       "correct": 0
     },
     {
-      "question": "Kto sprawował nadzór nad lokalnymi urzędnikami (hrabiami i margrabiami) w imperium Karola Wielkiego?",
-      "answers": ["Missi dominici (wysłannicy królewscy)", "Skrybowie", "Wizy tatorzy papiescy", "Trybuni ludowi"],
-      "correct": 0
+      "question": "Na jakie trzy podstawowe grupy (stany) dzieliło się społeczeństwo średniowieczne według tradycyjnego podziału funkcjonalnego?",
+      "answers": ["Patrycjuszów, plebejuszy i niewolników", "Króla, magnatów i szlachtę", "Modlących się (oratores), walczących (bellatores) i pracujących (laboratores)", "Urzędników, kupców i rzemieślników"],
+      "correct": 2
     },
-    {
-      "question": "Dokładnie kiedy (dzień i rok) odbyła się koronacja cesarska Karola Wielkiego w Rzymie?",
-      "answers": ["25 grudnia 751 r.", "25 grudnia 800 r.", "2 lutego 962 r.", "15 sierpnia 843 r."],
-      "correct": 1
+    {"question":"Feudalizm prowadził do silnej decentralizacji władzy",
+     "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
+    
   ],
   "4": [
     {
-      "question": "Który papież dokonał koronacji cesarskiej Karola Wielkiego?",
-      "answers": ["Stefan II", "Leon III", "Grzegorz VII", "Urban II"],
+      "question": "Na czym polegała polityka 'renovatio imperii' cesarza Justyniana I Wielkiego?",
+      "answers": ["Na odbudowie potęgi terytorialnej dawnego Imperium Romanum", "Na przeniesieniu stolicy do Rzymu", "Na wprowadzeniu arianizmu jako religii państwowej", "Na likwidacji administracji rzymskiej"],
+      "correct": 0
+    },
+    {
+      "question": "Kto stał na czele prac nad kodyfikacją prawa rzymskiego (Corpus Iuris Civilis) za rządów Justyniana?",
+      "answers": ["Belizariusz", "Trybonian", "Prokopiusz z Cezarei", "Jan Kapadocki"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Renesans karoliński postulował odrzucenie łaciny klasycznej na rzecz lokalnych języków narodowych.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Które państwo powstałe na Bałkanach pod wodzą chana Asparucha około 681 roku stało się stałym rywalem Bizancjum?",
+      "answers": ["Państwo Awarów", "Państwo Bułgarskie", "Państwo Chazarów", "Ruś Kijowska"],
       "correct": 1
     },
     {
-      "question": "Kto stał na czele Szkoły Pałacowej w Akwizgranie i był głównym architektem reform renesansu karolińskiego?",
-      "answers": ["Einhard", "Alkuin", "Tomasz z Akwinu", "Piotr Waldo"],
+      "question": "Które plemię koczownicze wspólnie ze Słowianami przeprowadziło potężne, nieudane oblężenie Konstantynopola w 626 roku?",
+      "answers": ["Hunowie", "Awarowie", "Bułgarzy", "Wandalowie"],
       "correct": 1
     },
     {
-      "question": "Jak nazywa się niezwykle czytelny i zestandaryzowany krój pisma wprowadzony w skryptoriach za czasów Karola Wielkiego?",
-      "answers": ["Kursywa rzymska", "Gotyk", "Minuskuła karolińska", "Pismo merowińskie"],
-      "correct": 2
+      "question": "W której bitwie z 636 roku wojska bizantyjskie uległy ekspansji Arabów, co doprowadziło do utraty Syrii i Palestyny?",
+      "answers": ["Pod Adrianopolem", "Nad rzeką Jarmuk", "Pod Poitiers", "Pod Manzikertem"],
+      "correct": 1
+    },
+    {"question": "Kto założył państwo bułgarskie ok. 681 r.?", "answers": ["Asparuch", "Samon", "Ruryk", "Attyla"], "correct": 0},
+    {"question": "Jak nazywał się ruch obrazoburczy w Bizancjum?", "answers": ["Arianizm", "Monofizytyzm", "Ikonoklazm", "Nestorianizm"], "correct": 2},
+     {
+      "question": "Za kogo Bizantyjczycy uważali Słowian w VI–VII wieku?",
+      "answers": ["Za lud cywilizowany i sprzymierzony", "Za barbarzyńców i dzikich najeźdźców", "Za sojuszników przeciw Persom", "Za potomków Rzymian"],
+      "correct": 1
     },
     {
-      "question": "W skład tzw. trivium (niższego stopnia sztuk wyzwolonych) wchodziły:",
-      "answers": ["Arytmetyka, geometria, muzyka", "Gramatyka, retoryka, dialektyka", "Geometria, astronomia, logika", "Teologia, prawo, medycyna"],
-      "correct": 1
+      "question": "Jakie były główne kierunki ekspansji terytorialnej Justyniana I?",
+      "answers": ["Afryka Północna i Italia", "Bałkany i Azja Mniejsza", "Hiszpania i Galia", "Persja i Indie"],
+      "correct": 0
     }
   ],
   "5": [
     {
-      "question": "Prawda czy Fałsz: Quadrivium obejmowało nauki matematyczno-przyrodnicze: arytmetykę, geometrię, muzykę oraz astronomię.",
+      "question": "Który ruch obrazoburczy, zapoczątkowany w Bizancjum w 726 roku przez Leona III Izauryjczyka, zakazywał kultu ikon?",
+      "answers": ["Arianizm", "Monofizytyzm", "Ikonoklazm", "Nestorianizm"],
+      "correct": 2
+    },
+    {
+      "question": "Która doktryna, potępiona na soborze nicejskim w 325 roku, głosiła, że Syn Boży jest stworzeniem podrzędnym wobec Boga Ojca?",
+      "answers": ["Arianizm", "Monofizytyzm", "Nestorianizm", "Katarzy"],
+      "correct": 0
+    },
+    {
+      "question": "Który chrześcijański spór doktrynalny głosił, że Jezus Chrystus posiadał tylko jedną, boską naturę (potępiony w Chalcedonie w 451 r.)?",
+      "answers": ["Nestorianizm", "Arianizm", "Monofizytyzm", "Pelagianizm"],
+      "correct": 2
+    },
+    {
+      "question": "Jak w historii Bizancjum nazywa się oficjalne wydarzenie z 843 roku, które ostatecznie zakończyło kryzys ikonoklastyczny i przywróciło kult obrazów?",
+      "answers": ["Unia florencka", "Triumf Ortodoksji", "Pokój w Nisibis", "Schizma Focjusza"],
+      "correct": 1
+    },
+    {
+      "question": "Która doktryna chrześcijańska, potępiona w Efezie (431 r.), kładła nacisk na pełne rozdzielenie boskiej i ludzkiej natury Chrystusa?",
+      "answers": ["Nestorianizm", "Monofizytyzm", "Arianizm", "Donatyzm"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Arianizm utrzymywał się najdłużej właśnie wśród ludów germańskich (Gotów, Wandalów), co powodowało konflikty religijne w królestwach barbarzyńskich.",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "W którym roku podpisano Traktat w Verdun, dzielący imperium Karolingów?",
-      "answers": ["800 r.", "814 r.", "843 r.", "962 r."],
-      "correct": 2
+      "question": "Monofizytyzm był szczególnie silny w których regionach imperium?",
+      "answers": ["Italia i Galia", "Syria, Egipt i Armenia", "Bałkany i Azja Mniejsza", "Afryka Północna"],
+      "correct": 1
     },
     {
-      "question": "Który z synów Ludwika Pobożnego otrzymał w wyniku traktatu w Verdun państwo zachodniofrankijskie (zalążek Francji)?",
-      "answers": ["Lotar I", "Ludwik Niemiecki", "Karol Łysy", "Pepin II"],
-      "correct": 2
-    },
-    {
-      "question": "Który z braci otrzymał tytuł cesarski oraz pas ziem centralnych rozciągający się od Morza Północnego po Italię?",
-      "answers": ["Lotar I", "Ludwik Niemiecki", "Karol Łysy", "Ludwik Pobożny"],
+      "question": "Prawda czy Fałsz: Ikonoklazm był nie tylko sporem teologicznym, ale także konfliktem politycznym między cesarzem a papiestwem oraz mnisimi środowiskami.",
+      "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Prawda czy Fałsz: Państwo wschodniofrankijskie, które przypadło Ludwikowi Niemieckiemu, stało się później zalążkiem państwowości niemieckiej.",
+      "question": "Który cesarz bizantyjski zapoczątkował politykę ikonoklazmu?",
+      "answers": ["Justynian I", "Herakliusz", "Leon III Izauryjczyk", "Konstantyn V"],
+      "correct": 2
+    },
+    {
+      "question": "Dlaczego arianizm był szczególnie niebezpieczny dla jedności religijnej w państwie Franków Chlodwiga?",
+      "answers": [
+        "Bo Frankowie byli arianami",
+        "Bo odróżniał Germanów ariańskich od romanizowanej ludności katolickiej",
+        "Bo zakazywał chrztu",
+        "Bo popierał politeizm"
+      ],
+      "correct": 1
+    },
+    {
+      "question": "Jakie były główne skutki ikonoklazmu dla Bizancjum?",
+      "answers": [
+        "Wzrost wpływów papieskich na Zachodzie i osłabienie pozycji cesarza",
+        "Zjednoczenie Kościoła wschodniego i zachodniego",
+        "Sukcesy militarne przeciwko Arabom",
+        "Rozwój kultu relikwii"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Który sobór ostatecznie potępił monofizytyzm?",
+      "answers": ["Sobór nicejski (325)", "Sobór efeski (431)", "Sobór chalcedoński (451)", "Sobór nicejski II (787)"],
+      "correct": 2
+    },
+    {
+      "question": "Prawda czy Fałsz: Ruchy religijne we wczesnym średniowieczu (arianizm, monofizytyzm, ikonoklazm) miały nie tylko wymiar teologiczny, ale także polityczny i społeczny.",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     }
   ],
   "6": [
     {
-      "question": "Jak nazywali siebie mieszkańcy Bizancjum, podkreślając ciągłość z dawnym imperium?",
-      "answers": ["Grekami", "Bizantyjczykami", "Romajami (Rzymianami)", "Hellenami"],
+      "question": "Jak nazywa się kluczowe wydarzenie z 622 roku polegające na emigracji Mahometa z Mekki do Medyny?",
+      "answers": ["Umma", "Hidżra", "Ramadan", "Kaaba"],
+      "correct": 1
+    },
+    {
+      "question": "Jak w tradycji islamu określa się pierwszych czterech następców Mahometa rządzących w latach 632–661?",
+      "answers": ["Kalifowie 'sprawiedliwi'", "Dynastia Omajadów", "Dynastia Abbasydów", "Emirowie kordobańscy"],
+      "correct": 0
+    },
+    {
+      "question": "Która bitwa z 732 roku, stoczona przez Karola Młota, zatrzymała dalszą ekspansję Arabów w głąb Europy Zachodniej?",
+      "answers": ["Pod Kadyksem", "Nad rzeką Jarmuk", "Pod Poitiers", "Pod Guadalete"],
       "correct": 2
     },
     {
-      "question": "Jak nazywa się system ustrojowy Bizancjum, charakteryzujący się pełną dominacją cesarza nad Kościołem?",
-      "answers": ["Papocezaryzm", "Cezaropapizm", "Teokracja", "Monarchia stanowa"],
+      "question": "Które wielkie imperium bliskowschodnie zostało całkowicie podbite i zlikwidowane przez Arabów w VII wieku?",
+      "answers": ["Cesarstwo Bizantyjskie", "Państwo Sasanidów (Persja)", "Państwo Ostrogotów", "Królestwo Aksum"],
       "correct": 1
     },
     {
-      "question": "Za panowania którego cesarza w VI wieku Bizancjum przeżywało kodyfikację prawa (Corpus Iuris Civilis) oraz budowę Hagia Sophia?",
-      "answers": ["Konstantyna Wielkiego", "Justyniana I Wielkiego", "Herakliusza", "Bazylego II Bułgarobójcy"],
+      "question": "Jaki główny czynnik wewnętrzny w Bizancjum i Persji ułatwił Arabom tak błyskawiczny podbój Bliskiego Wschodu w VII wieku?",
+      "answers": ["Całkowity brak armii zawodowych", "Wycieńczenie obu imperiów długotrwałymi wojnami przeciwko sobie", "Masowe przejście rzymskich legionów na islam", "Brak jakichkolwiek umocnień granicznych"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Kryzys ikonoklastyczny w Bizancjum w VIII-IX wieku polegał na krwawym sporze wokół niszczenia i zakazu kultu świętych obrazów (ikon).",
+      "question": "Jak nazywała się pierwsza wspólnota religijno-polityczna stworzona przez Mahometa w Medynie?",
+      "answers": ["Kaaba", "Umma", "Dżihad", "Sunną"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Mahomet zmarł w 632 roku, a władzę po nim przejęli kalifowie – następcy Proroka.",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Jak nazywano cesarza Bizancjum, podkreślając jego status jako 'równego apostołom'?",
-      "answers": ["Autokrator", "Izapostolos", "Basileus", "Patriarcha"],
+      "question": "W której bitwie w 636 roku Arabowie rozbili armię bizantyjską i zdobyli Syrię?",
+      "answers": ["Bitwa pod Poitiers", "Bitwa nad Jarmukiem", "Bitwa pod Guadalete", "Oblężenie Konstantynopola"],
       "correct": 1
+    },
+    {
+      "question": "W którym roku Arabowie i Berberowie przekroczyli Cieśninę Gibraltarską i rozpoczęli podbój Półwyspu Iberyjskiego?",
+      "answers": ["642", "711", "732", "756"],
+      "correct": 1
+    },
+    {
+      "question": "Która z dynastii kalifów rządziła podczas największych podbojów arabskich (VII–VIII w.)?",
+      "answers": ["Abbasydzi", "Fatymidzi", "Umajjadzi", "Osmanowie"],
+      "correct": 2
+    },
+    {
+      "question": "Prawda czy Fałsz: Arabowie podczas ekspansji stosowali zasadę względnej tolerancji religijnej wobec ludności podbitej (chrześcijan i żydów), nakładając na nich jedynie dodatkowy podatek.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Które z czynników NIE było głównym powodem sukcesu ekspansji arabskiej w VII–VIII wieku?",
+      "answers": [
+        "Wyczerpanie Bizancjum i Persji długimi wojnami",
+        "Wysoka motywacja religijna wojowników",
+        "Doskonała taktyka konnicy ciężkozbrojnej",
+        "Mobilność i szybkość wojsk arabskich"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "Jakie było najważniejsze religijne i polityczne centrum islamu po oczyszczeniu go z bożków przez Mahometa?",
+      "answers": ["Medyna", "Mekka (Kaaba)", "Damaszek", "Bagdad"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Ekspansja arabska doprowadziła do likwidacji państwa Sasanidów (Persji) i poważnego osłabienia Cesarstwa Bizantyjskiego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
   ],
   "7": [
     {
-      "question": "W którym roku miała miejsce ucieczka Mahometa z Mekki do Medyny (Hedżra), oznaczająca początek ery muzułmańskiej?",
-      "answers": ["500 r.", "622 r.", "711 r.", "732 r."],
+      "question": "Jakie znaczenie polityczne miało przyjęcie chrztu przez Chlodwiga z dynastii Merowingów około 496 roku?",
+      "answers": ["Zapewniło Frankom poparcie galorzymskiego episkopatu i papiestwa", "Wywołało natychmiastową wojnę z Wizygotami", "Wymusiło likwidację monarchii", "Skutkowało abdykacją króla"],
+      "correct": 0
+    },
+    {
+      "question": "Z jakiej dynastii pochodził Chlodwig, pierwszy znaczący władca Franków?",
+      "answers": ["Karolingów", "Merowingów", "Ottonów", "Kapetyngów"],
       "correct": 1
     },
     {
-      "question": "Jak nazywa się religijny obowiązek szerzenia i obrony wiary w islamie, który napędzał arabskie podboje?",
-      "answers": ["Ramadan", "Dżihad", "Sunna", "Hadis"],
+      "question": "Kto w 732 roku w bitwie pod Poitiers zatrzymał ekspansję Arabów na Europę Zachodnią?",
+      "answers": ["Chlodwig", "Pepin Krótki", "Karol Młot", "Karol Wielki"],
+      "correct": 2
+    },
+    {
+      "question": "W którym roku Pepin Krótki obalił ostatniego króla Merowingów i zapoczątkował dynastię Karolingów?",
+      "answers": ["732", "751", "768", "800"],
       "correct": 1
     },
     {
-      "question": "W 711 roku Arabowie i Berberowie przekroczyli Cieśninę Gibraltarską i zniszczyli w Hiszpanii państwo:",
-      "answers": ["Wandalów", "Wizygotów", "Ostrogoci", "Swebów"],
+      "question": "Gdzie i w którym roku Karol Wielki został koronowany na cesarza przez papieża Leona III?",
+      "answers": ["W Akwizgranie w 814 r.", "W Rzymie w 800 r.", "W Reims w 496 r.", "W Verdun w 843 r."],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Główny rozłam w islamie na sunnitów i szyitów dotyczył kwestii sukcesji i wyboru legalnego kalifa po śmierci Mahometa.",
+      "question": "Jak nazywa się okres odnowy kultury, edukacji i administracji za panowania Karola Wielkiego?",
+      "answers": ["Renesans ottonijski", "Renesans karoliński", "Złoty wiek Bizancjum", "Reforma gregoriańska"],
+      "correct": 1
+    },
+    {
+      "question": "Kto był głównym doradcą i architektem reform oświatowych Karola Wielkiego?",
+      "answers": ["Einhard", "Alkuin z Yorku", "Beda Czcigodny", "Teodulf z Orleanu"],
+      "correct": 1
+    },
+    {
+      "question": "Jak nazywa się czytelny i jednolity rodzaj pisma wypracowany w skryptoriach renesansu karolińskiego?",
+      "answers": ["Kursywa rzymska", "Minuskuła karolińska", "Gotyk tekstowy", "Pismo merowińskie"],
+      "correct": 1
+    },
+    {
+      "question": "Które z poniższych terytoriów zostało podbite przez Karola Wielkiego po wieloletnich wojnach?",
+      "answers": ["Państwo Wizygotów", "Sasowie", "Wandalowie w Afryce", "Państwo bułgarskie"],
+      "correct": 1
+    },
+    {
+      "question": "Który traktat z 843 roku formalnie podzielił imperium Karola Wielkiego pomiędzy jego trzech wnuków?",
+      "answers": ["Traktat w Verdun", "Konkordat wormacki", "Pokój w Brétigny", "Złota Bulla"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Koronacja Karola Wielkiego w 800 roku oznaczała odrodzenie idei cesarstwa zachodniorzymskiego na Zachodzie.",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Która dynastia kalifów rządziła imperium arabskim podczas wielkich podbojów i bitwy pod Poitiers?",
-      "answers": ["Abbasydów", "Umajjadów", "Fatymidów", "Seldżuków"],
-      "correct": 1
+      "question": "Główne przyczyny upadku imperium karolińskiego to:",
+      "answers": ["Brak silnej władzy centralnej, walki wewnętrzne i najazdy Normanów oraz Węgrów", "Inwazja Arabów z Hiszpanii", "Wojna z Bizancjum", "Wielka Schizma"],
+      "correct": 0
     }
   ],
   "8": [
     {
-      "question": "Skandynawscy wojownicy, którzy najeżdżali Europę w IX-X wieku to:",
-      "answers": ["Węgrzy", "Saraceni", "Normanowie (Wikingowie)", "Awarowie"],
-      "correct": 2
-    },
-    {
-      "question": "W którym roku wódz wikingów Rollo otrzymał od króla Franków lenno, dając początek Normandii?",
-      "answers": ["843 r.", "911 r.", "955 r.", "1066 r."],
+      "question": "Kim był Samon, twórca pierwszego znanego związku plemiennego Słowian powstałego około 623 roku?",
+      "answers": ["Bizantyjskim dyplomatą", "Kupcem frankijskim wybranym na wodza ze względu na skuteczny opór przeciw Awarom", "Skandynawskim wikingiem", "Księciem Wielkomorawskim"],
       "correct": 1
     },
     {
-      "question": "W której bitwie w 955 roku król niemiecki Otton I ostatecznie rozbił koczowniczych Węgrów?",
-      "answers": ["Pod Poitiers", "Na Lechowym Polu", "Pod Legnicą", "Pod Bouvines"],
+      "question": "W której bitwie w 631 roku Samon pokonał armię frankijskiego króla Dagoberta I?",
+      "answers": ["Pod Adrianopolem", "Pod Wogastisburgiem", "Pod Poitiers", "Nad rzeką Lech"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Saraceni to średniowieczne określenie stosowane w Europie wobec najeźdźców arabskich i muzułmańskich.",
+      "question": "Prawda czy Fałsz: Państwo Samona miało charakter luźnej konfederacji plemiennej i rozpadło się wkrótce po śmierci jego twórcy (ok. 658 r.).",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "W którym roku muzułmańscy piraci (Saraceni) zuchwale napadli na Rzym i złupili bazylikę św. Piotra?",
-      "answers": ["732 r.", "846 r.", "911 r.", "1054 r."],
+      "question": "Którzy misjonarze bizantyjscy przybyli na Wielkie Morawy w 863 roku na zaproszenie księcia Rościsława?",
+      "answers": ["Ruryk i Oleg", "Cyryl i Metody", "Alkuin i Beda", "Piotr i Paweł"],
+      "correct": 3
+    },
+    {
+      "question": "Jak nazywa się alfabet stworzony przez Cyryla i Metodego?",
+      "answers": ["Cyrylica", "Głagolica", "Minuskuła karolińska", "Runy"],
       "correct": 1
+    },
+    {
+      "question": "Za panowania którego władcy Wielkie Morawy osiągnęły największy rozkwit terytorialny?",
+      "answers": ["Rościsława", "Świętopełka I", "Włodzimierza Wielkiego", "Mieszka I"],
+      "correct": 1
+    },
+    {
+      "question": "Jaki czynnik zewnętrzny doprowadził do upadku Państwa Wielkomorawskiego na początku X wieku?",
+      "answers": ["Najazd koczowniczych Węgrów (Madziarów)", "Podbój przez Karola Wielkiego", "Inwazja Normanów", "Wojna z Bizancjum"],
+      "correct": 0
+    },
+    {
+      "question": "Według tradycji zawartej w Powieści minionych lat, kto w 862 roku został zaproszony do Nowogrodu i zapoczątkował dynastię Rurykowiczów?",
+      "answers": ["Oleg", "Ruryk", "Włodzimierz Wielki", "Jarosław Mądry"],
+      "correct": 1
+    },
+    {
+      "question": "Który władca ruski w 882 roku opanował Kijów i uczynił go stolicą Rusi?",
+      "answers": ["Ruryk", "Oleg", "Igor", "Włodzimierz Wielki"],
+      "correct": 1
+    },
+    {
+      "question": "W którym roku Włodzimierz Wielki przyjął chrzest z Bizancjum, włączając Ruś w krąg cywilizacji wschodniochrześcijańskiej?",
+      "answers": ["862", "882", "988", "1054"],
+      "correct": 2
+    },
+    {
+      "question": "Jak nazywał się ważny szlak handlowy kontrolowany przez Ruś Kijowską, łączący Skandynawię z Bizancjum?",
+      "answers": ["Szlak bursztynowy", "Szlak od Waregów do Greków", "Jedwabny Szlak", "Szlak solny"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Początki państwowości słowiańskiej wiązały się ściśle z walką z Awarami oraz wpływami frankijskimi i bizantyjskimi.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
   ],
   "9": [
     {
-      "question": "Prawda czy Fałsz: Dualizm prawny w królestwach barbarzyńskich polegał na tym, że ludność rzymska i germańska podlegała dokładnie temu samemu prawu plemiennemu.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Który wódz normański otrzymał w 911 roku od króla Francji ziemię, która dała początek księstwu Normandii?",
+      "answers": ["Ruryk", "Rollo", "Wilhelm Zdobywca", "Kanut Wielki"],
       "correct": 1
     },
     {
-      "question": "Jak nazywał się akt oddania się wolnego, ubogiego człowieka pod opiekę możnowładcy w zamian za służbę?",
-      "answers": ["Inwestytura", "Komendacja", "Prekarium", "Beneficjum"],
+      "question": "W której słynnej bitwie z 1066 roku Normanowie pod wodzą Wilhelma Zdobywcy pokonali Anglosasów?",
+      "answers": ["Pod Bouvines", "Pod Hastings", "Pod Poitiers", "Pod Crécy"],
       "correct": 1
     },
     {
-      "question": "Ziemia lub urząd nadawany przez seniora wasalowi w zamian za wierność i pomoc wojskową to:",
-      "answers": ["Prekarium", "Lenno (beneficjum)", "Alodium", "Danie"],
-      "correct": 1
+      "question": "Jak w Europie Wschodniej i na Rusi nazywano skandynawskich wojowników i kupców?",
+      "answers": ["Wandalowie", "Asasyni", "Waregowie", "Madziarzy"],
+      "correct": 2
     },
     {
-      "question": "Prawda czy Fałsz: Ceremonia, podczas której wasal składał przysięgę wierności seniorowi, nazywała się hołdem lennym (homagium).",
+      "question": "Jakie były trzy główne kierunki ekspansji Normanów (Wikingów) w VIII–XI wieku?",
+      "answers": ["Zachodni (atlantycki), wschodni (kontynentalny) i południowy (śródziemnomorski)", "Afrykański, azjatycki i bałtycki", "Wyłącznie wyspiarski na Morzu Północnym", "Perski, indyjski i bizantyjski"],
+      "correct": 0
+    },
+    {
+      "question": "Które z podanych terytoriów na południu Europy zostało podbite i przekształcone w silne królestwo normańskie w XI wieku?",
+      "answers": ["Sycylia i południowa Italia", "Półwysep Iberyjski", "Peloponez", "Krym"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Normanowie w Normandii szybko przyjęli język francuski, kulturę frankijską i chrześcijaństwo, ulegając feudalizacji.",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Czym była inwestytura w systemie feudalnym?",
-      "answers": ["Wojną między dwoma wasalami", "Symbolicznym wręczeniem przez seniora przedmiotu oznaczającego przekazanie lenna", "Podatkiem płaconym przez chłopa", "Uwolnieniem wasala z przysięgi"],
+      "question": "Który władca normański dokonał podboju Anglii i został jej królem?",
+      "answers": ["Rollo", "Wilhelm Zdobywca", "Kanut Wielki", "Harald Hardrada"],
       "correct": 1
+    },
+    {
+      "question": "Jaką rolę odegrali Waregowie w powstaniu państwa ruskiego?",
+      "answers": ["Zostali zaproszeni jako władcy i wojownicy, tworząc dynastię Rurykowiczów", "Byli tylko najemnikami na dworze bizantyjskim", "Zniszczyli państwo słowiańskie", "Nie mieli żadnego wpływu"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Najazdy wikingów na Europę Zachodnią (VIII–X w.) przyczyniły się do rozwoju fortyfikacji, umocnienia władzy królewskiej oraz powstania rycerstwa.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Które z poniższych nie było typowym kierunkiem działalności Normanów?",
+      "answers": ["Najazdy na klasztory i wybrzeża Anglii i Francji", "Służba jako gwardia przyboczna cesarza bizantyjskiego (Warygowie)", "Kolonializacja Islandii i Grenlandii", "Podbój i zasiedlenie Azji Mniejszej"],
+      "correct": 3
+    },
+    {
+      "question": "Jak nazywano skandynawskich wojowników, którzy najeżdżali wybrzeża Europy Zachodniej?",
+      "answers": ["Waregowie", "Wikingowie", "Madziarzy", "Awarowie"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Ekspansja Normanów była możliwa dzięki doskonałym łodziom (drakkarom) oraz wojowniczej kulturze skandynawskiej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
   ],
   "10": [
     {
-      "question": "Który z autorów sformułował klasyczną koncepcję trójpodziału funkcjonalnego społeczeństwa średniowiecznego?",
-      "answers": ["Św. Tomasz z Akwinu", "Adalberon z Laon", "Grzegorz VII", "Alkuin"],
+      "question": "W której bitwie z 955 roku Otton I Wielki ostatecznie rozgromił koczowniczych Węgrów?",
+      "answers": ["Nad rzeką Lech", "Pod Wogastisburgiem", "Pod Legnicą", "Pod Bouvines"],
+      "correct": 0
+    },
+    {
+      "question": "W którym roku Otton I Wielki został koronowany na cesarza rzymskiego, co uznaje się za odnowienie Cesarstwa Zachodniorzymskiego?",
+      "answers": ["800 r.", "962 r.", "1000 r.", "1025 r."],
       "correct": 1
     },
     {
-      "question": "W teori trójpodziału społecznego grupa określana jako 'Bellatores' odpowiadała za:",
-      "answers": ["Modlitwę i zbawienie dusz", "Pracę na roli i rzemiosło", "Walkę i obronę militarną", "Handel dalekosiężny"],
+      "question": "Kto był twórcą podwalin potęgi państwa niemieckiego w X wieku – pierwszym królem z dynastii saskiej?",
+      "answers": ["Otton I Wielki", "Henryk I Ptasznik", "Otton III", "Konrad II"],
+      "correct": 1
+    },
+    {
+      "question": "Jak nazywała się dynastia panująca w Cesarstwie Ottonów?",
+      "answers": ["Karolingowie", "Ludolfingowie (dynastia saska)", "Salicyjska", "Staufowie"],
+      "correct": 1
+    },
+    {
+      "question": "Który cesarz z dynastii ottonów realizował uniwersalistyczną wizję chrześcijańskiej Europy pod koniec X wieku?",
+      "answers": ["Henryk I Ptasznik", "Otton I Wielki", "Otton III", "Otton II"],
       "correct": 2
     },
     {
-      "question": "Prawda czy Fałsz: Stanowość w średniowieczu oznaczała, że wszystkie grupy społeczne miały identyczne prawa i podlegały temu samemu sądowi.",
+      "question": "Jakie cztery główne krainy miały wchodzić w skład uniwersalistycznego imperium według koncepcji Ottona III?",
+      "answers": ["Galia, Germania, Roma, Sclavinia", "Anglia, Francja, Niemcy, Italia", "Hiszpania, Brytania, Bizancjum, Ruś", "Polska, Czechy, Węgry, Dania"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Otton I Wielki w 962 roku został koronowany przez papieża Jana XII na cesarza w Rzymie.",
       "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Jak nazywał się system rządów Ottonów, w którym cesarz obsadzał biskupów i opatów na kluczowych urzędach państwowych?",
+      "answers": ["System Kościoła Rzeszy (Reichskirche)", "Feudalizm lenny", "System missi dominici", "Cezaropapizm bizantyjski"],
+      "correct": 0
+    },
+    {
+      "question": "Co symbolizował zjazd w Gnieźnie w roku 1000 za panowania Ottona III?",
+      "answers": ["Podporządkowanie Polski Cesarstwu", "Uniwersalistyczną wizję chrześcijańskiej Europy i uznanie autonomii Kościoła polskiego", "Koronację Bolesława Chrobrego na króla", "Sojusz przeciw Węgrom"],
       "correct": 1
     },
     {
-      "question": "Jak nazywano grupę społeczną odpowiedzialną w teorii trójpodziału za pracę fizyczną i utrzymanie reszty społeczeństwa?",
-      "answers": ["Oratores", "Bellatores", "Laboratores", "Mieszczanie"],
-      "correct": 2
+      "question": "Prawda czy Fałsz: Cesarstwo Ottonów jest uznawane za początek Świętego Cesarstwa Rzymskiego Narodu Niemieckiego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     },
     {
-      "question": "Który stan w społeczeństwie średniowiecznym jako pierwszy wywalczył sobie odrębne sądownictwo i immunitety?",
-      "answers": ["Chłopi", "Duchowieństwo", "Mieszczaństwo", "Rycerstwo"],
-      "correct": 1
+      "question": "Które z poniższych nie było celem polityki Ottonów?",
+      "answers": ["Kontrola nad Kościołem niemieckim", "Ekspansja na Wschód (Polska, Czechy)", "Odbudowa imperium karolińskiego", "Sojusz z Bizancjum przeciwko Arabom"],
+      "correct": 3
+    },
+    {
+      "question": "Prawda czy Fałsz: Otton III dążył do ścisłej współpracy cesarza i papieża jako dwóch filarów uniwersalnego chrześcijańskiego imperium.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
   ],
   "11": [
     {
-      "question": "Kto założył klasztor na Monte Cassino (ok. 529 r.) i uchodzi za ojca zachodniego monastycyzmu?",
-      "answers": ["Św. Augustyn", "Św. Benedykt z Nursji", "Św. Franciszek", "Św. Dominik"],
+      "question": "Który dokument z 1075 roku sformułowany przez Grzegorza VII zapoczątkował spór o inwestyturę?",
+      "answers": ["Złota Bulla", "Dictatus Papae", "Wielka Karta Swobód", "Konkordat wormacki"],
       "correct": 1
     },
     {
-      "question": "Słynna dewiza zakonu benedyktynów 'Ora et labora' oznacza:",
-      "answers": ["Wiedza i prawda", "Módl się i pracuj", "Ubóstwo i posłuszeństwo", "Chwała Bogu na wysokościach"],
+      "question": "Gdzie w 1077 roku cesarz Henryk IV ukorzył się przed papieżem Grzegorzem VII, by zdjąć z siebie klątwę?",
+      "answers": ["W Wormacji", "W Canossie", "W Clermont", "W Rzymie"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Średniowieczne skryptoria klasztorne odegrały kluczową rolę w ocaleniu tekstów antycznych poprzez ich ręczne przepisywanie.",
+      "question": "Który traktat z 1122 roku formalnie zakończył klasyczny spór o inwestyturę?",
+      "answers": ["Konkordat wormacki", "Traktat w Verdun", "Złota Bulla", "Pokój w Brétigny"],
+      "correct": 0
+    },
+    {
+      "question": "Który pontyfikat z przełomu XII i XIII wieku uważany jest za apogeum politycznej i religijnej potęgi średniowiecznego papiestwa?",
+      "answers": ["Grzegorza VII", "Urbana II", "Innocentego III", "Bonifacego VIII"],
+      "correct": 2
+    },
+    {
+      "question": "Co stanowiło główną oś sporu o inwestyturę między cesarstwem a papiestwem?",
+      "answers": ["Prawo do obsadzania stanowisk kościelnych (biskupstw) i zwierzchnictwo nad światem chrześcijańskim", "Wysokość podatków płaconych na rzecz Kurii Rzymskiej", "Zgoda na koronację królów Francji", "Kontrola nad szlakami handlowymi w Italii"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Grzegorz VII (Hildebrand) był głównym twórcą reformy gregoriańskiej, walczącym z symonią i nikolaizmem.",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Jak nazywano mnichów zajmujących się ręcznym przepisywaniem i ozdabianiem ksiąg w klasztorach?",
-      "answers": ["Opatowie", "Kopiści/Skrybowie", "Scholastycy", "Mendykanie"],
+      "question": "Jakie były główne cele reform gregoriańskich?",
+      "answers": ["Uniezależnienie Kościoła od władzy świeckiej i walka z nadużyciami", "Zwiększenie wpływów cesarza nad Kościołem", "Podbój Ziemi Świętej", "Reforma monetarna"],
+      "correct": 0
+    },
+    {
+      "question": "Który papież zainicjował IV krucjatę, która ostatecznie doprowadziła do zdobycia Konstantynopola w 1204 roku?",
+      "answers": ["Grzegorz VII", "Urban II", "Innocenty III", "Eugeniusz III"],
+      "correct": 2
+    },
+    {
+      "question": "Prawda czy Fałsz: Innocenty III twierdził, że papież jest „namestnikiem Chrystusa” (vicarius Christi) i stoi ponad wszystkimi władcami chrześcijańskimi.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Jakie były najważniejsze skutki sporu o inwestyturę?",
+      "answers": ["Osłabienie cesarstwa i wzmocnienie pozycji papiestwa w Europie", "Zjednoczenie Kościoła wschodniego i zachodniego", "Upadek monarchii niemieckiej", "Zwycięstwo cesarstwa nad papiestwem"],
+      "correct": 0
+    },
+    {
+      "question": "W którym roku Henryk IV zwołał synod w Wormacji i ogłosił obalenie Grzegorza VII?",
+      "answers": ["1075", "1076", "1077", "1122"],
       "correct": 1
     },
     {
-      "question": "Pojęcie autarkii w odniesieniu do średniowiecznych klasztorów oznaczało ich:",
-      "answers": ["Zależność od biskupa", "Samowystarczalność gospodarczą", "Obowiązek walki zbrojnej", "Działalność uniwersytecką"],
-      "correct": 1
+      "question": "Prawda czy Fałsz: Spór o inwestyturę był nie tylko konfliktem o władzę, ale także starciem dwóch wizji chrześcijańskiego porządku – papieskiej i cesarskiej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
   ],
   "12": [
     {
-      "question": "Jak w historii Kościoła określa się powszechny w X wieku kryzys moralny i uzależnienie papieży od rodów rzymskich?",
-      "answers": ["Saeculum obscurum (ciemny wiek)", "Niewola awiniońska", "Wielka Schizma", "Okres reformacji"],
-      "correct": 0
-    },
-    {
-      "question": "Jak nazywa się proceder kupowania i sprzedawania urzędów kościelnych?",
-      "answers": ["Nikolaizm", "Nepotyzm", "Symonia", "Inwestytura"],
-      "correct": 2
-    },
-    {
-      "question": "Łamanie celibatu przez duchownych w średniowieczu było nazywane:",
-      "answers": ["Symonią", "Nikolaizmem", "Nepotyzmem", "Apostazją"],
+      "question": "Na którym synodzie w 1095 roku papież Urban II wezwał do podjęcia pierwszej wyprawy krzyżowej?",
+      "answers": ["W Wormacji", "W Clermont", "W Konstancji", "W Troyes"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Opactwo w Cluny, założone w 910 roku, podlegało bezpośrednio papieżowi, co pomogło mu zapoczątkować wielki ruch reformy Kościoła.",
+      "question": "Jakie hasło stało się okrzykiem bojowym pierwszej krucjaty?",
+      "answers": ["Deus lo vult", "Dieu le veut", "Deus vult", "In hoc signo vinces"],
+      "correct": 2
+    },
+    {
+      "question": "Kto został pierwszym władcą Królestwa Jerozolimskiego po zdobyciu miasta w 1099 roku?",
+      "answers": ["Rajmund z Tuluzy", "Boemund z Tarentu", "Godfryd z Bouillon", "Baldwin I"],
+      "correct": 2
+    },
+    {
+      "question": "Która wyprawa krzyżowa (1202–1204) zamiast do Ziemi Świętej skierowała się na chrześcijański Konstantynopol?",
+      "answers": ["I krucjata", "III krucjata", "IV krucjata", "Krucjata albigenska"],
+      "correct": 2
+    },
+    {
+      "question": "Jakie były główne przyczyny społeczno-gospodarcze ruchu krucjatowego?",
+      "answers": ["Przestępczość i przeludnienie rycerstwa nieposiadającego ziemi oraz chęć otwarcia szlaków handlowych na Wschód", "Gwałtowny spadek liczby ludności w Europie", "Brak zainteresowania handlem lewantyńskim", "Przymusowe wysiedlenia zarządzane przez królów"],
+      "correct": 0
+    },
+    {
+      "question": "Które zakony rycerskie powstały w Ziemi Świętej w celu ochrony pielgrzymów i walki z muzułmanami?",
+      "answers": ["benedyktyni i cystersi", "templariusze, joannici i krzyżacy", "franciszkanie i dominikanie", "kartuzi"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: IV krucjata doprowadziła do utworzenia Cesarstwa Łacińskiego ze stolicą w Konstantynopolu i ogromnie osłabiła Bizancjum.",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Co oznaczało pojęcie 'Libertas Ecclesiae' postulowane przez reformatorów z Cluny?",
-      "answers": ["Wolność wyznania dla każdego", "Wolność Kościoła od ingerencji władzy świeckiej", "Prawo chłopa do opuszczenia wsi", "Zniesienie podatków papieskich"],
-      "correct": 1
+      "question": "Jakie znaczenie miała kultura rycerska ukształtowana pod wpływem krucjat?",
+      "answers": ["Połączenie rzemiosła wojennego z głęboką religijnością, honorem i obroną wiary", "Całkowite odrzucenie przemocy i ideał pacyfizmu", "Wyłącznie świecki etos dworski", "Zerwanie z ideą wierności seniorowi"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Krucjaty przyczyniły się do rozwoju handlu śródziemnomorskiego, kontaktów kulturowych z Bliskim Wschodem i napływu luksusowych towarów do Europy.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Który papież był inicjatorem IV krucjaty?",
+      "answers": ["Urban II", "Grzegorz VII", "Innocenty III", "Eugeniusz III"],
+      "correct": 2
+    },
+    {
+      "question": "Jakie były najważniejsze długofalowe skutki krucjat dla Europy Zachodniej?",
+      "answers": ["Wzrost znaczenia miast włoskich, rozwój handlu, wymiana kulturowa i naukowa", "Całkowity upadek rycerstwa i feudalizmu", "Zjednoczenie Kościoła wschodniego i zachodniego", "Trwałe podbicie Bliskiego Wschodu"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Krucjaty wzmocniły pozycję papiestwa jako przywódcy całego chrześcijaństwa łacińskiego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
   ],
   "13": [
     {
-      "question": "W którym roku doszło do Wielkiej Schizmy Wschodniej?",
-      "answers": ["843 r.", "962 r.", "1054 r.", "1075 r."],
-      "correct": 2
-    },
-    {
-      "question": "Co było głównym teologicznym powodem sporu (Filioque) podczas schizmy 1054 roku?",
-      "answers": ["Spór o celibat księży", "Spór o pochodzenie Ducha Świętego", "Kwestia używania chleba przaśnego w liturgii", "Język nabożeństw"],
+      "question": "Która wielka bitwa z 1214 roku rozstrzygnęła rywalizację francusko-angielską na korzyść Filipa II Augusta?",
+      "answers": ["Bitwa pod Hastings", "Bitwa pod Bouvines", "Bitwa pod Crécy", "Bitwa pod Azincourt"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: W wyniku Wielkiej Schizmy Wschodniej chrześcijaństwo podzieliło się na Kościół rzymskokatolicki oraz Kościoły protestanckie.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Który angielski król z dynastii Plantagenetów utracił większość swoich lennych posiadłości we Francji na rzecz Filipa II Augusta?",
+      "answers": ["Ryszard Lwie Serce", "Jan bez Ziemi", "Henryk II", "Edward I"],
       "correct": 1
     },
     {
-      "question": "Kto był patriarchą Konstantynopola, gdy doszło do wzajemnego obłożenia się ekskomunikami w 1054 roku?",
-      "answers": ["Michał Cerulariusz", "Humbert de Silva Candida", "Fotiusz", "Leon IX"],
+      "question": "Co leżało u podłoża konfliktu między królami Francji a Anglii w XII–XIII wieku w świetle prawa lennego?",
+      "answers": ["Król Anglii był jednocześnie lennikiem (wasalem) króla Francji z racji posiadanych ziem na kontynencie", "Król Francji domagał się korony szkockiej", "Papież zakazał zawierania małżeństw między obiema dynastiami", "Spór o obsadę arcybiskupstwa w Canterbury"],
       "correct": 0
     },
     {
-      "question": "Gdzie kardynał Humbert de Silva Candida złożył bullę ekskomunikującą patriarchę Wschodu?",
-      "answers": ["W bazylice św. Piotra", "Na ołtarzu Hagia Sophia", "W pałacu cesarskim", "W klasztorze studitów"],
+      "question": "Przez czyje małżeństwo z Henrykiem II Plantagenetem rozległe terytorium Akwitanii znalazło się pod kontrolą korony angielskiej w XII wieku?",
+      "answers": ["Blanki Kastylijskiej", "Izabeli Francuskiej", "Eleonory Akwitańskiej", "Marii Burgundzkiej"],
+      "correct": 2
+    },
+    {
+      "question": "Jakie były bezpośrednie polityczne skutki klęski koalicji angielsko-welfijskiej pod Bouvines w 1214 roku dla Francji?",
+      "answers": ["Gwałtowne wzmocnienie władzy królewskiej Kapetyngów i zjednoczenie znacznej części ziem francuskich", "Podział Francji na trzy niezależne księstwa", "Wymuszenie na Filipie Auguście abdykacji", "Wywołanie natychmiastowej rewolucji mieszczańskiej w Paryżu"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Król Anglii jako wasal francuski posiadał w XII wieku większe terytorium we Francji niż sam król Francji (tzw. imperium andegaweńskie).",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Który francuski król z dynastii Kapetyngów, zwany Augustem, skutecznie prowadził politykę odzyskiwania ziem od Plantagenetów?",
+      "answers": ["Ludwik VII", "Filip II August", "Ludwik IX Święty", "Filip IV Piękny"],
       "correct": 1
+    },
+    {
+      "question": "Jakie były najważniejsze skutki bitwy pod Bouvines dla Anglii?",
+      "answers": ["Osłabienie pozycji Jana bez Ziemi, co doprowadziło do buntu baronów i podpisania Wielkiej Karty Swobód w 1215 r.", "Zdobycie przez Anglię Normandii", "Zwycięstwo Plantagenetów i utrata tronu przez Kapetyngów", "Zawarcie trwałego sojuszu francusko-angielskiego"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Bitwa pod Bouvines (1214) jest uważana za jedną z najważniejszych bitew średniowiecza, ponieważ zadecydowała o kształcie politycznym Francji i Anglii na kolejne stulecia.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Które ziemie były głównym źródłem konfliktu między Filipem II Augustem a królami angielskimi?",
+      "answers": ["Normandia, Akwitania, Andegawia i Poitou", "Bretania i Burgundia", "Flandria i Szampania", "Tuluza i Prowansja"],
+      "correct": 0
+    },
+    {
+      "question": "Jakie długofalowe skutki miała francusko-angielska rywalizacja w XII–XIII wieku?",
+      "answers": ["Wzmocnienie monarchii francuskiej i początek kształtowania się scentralizowanego państwa francuskiego", "Zwycięstwo Anglii i powstanie imperium brytyjskiego", "Zjednoczenie Francji i Anglii pod jednym władcą", "Całkowity upadek feudalizmu w obu krajach"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Klęska pod Bouvines znacznie osłabiła pozycję Jana bez Ziemi i przyczyniła się do powstania angielskiego parlamentu oraz ograniczenia władzy królewskiej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
   ],
   "14": [
     {
-      "question": "Który król niemiecki koronował się na cesarza w 962 roku, dając początek Świętemu Cesarstwu Rzymskiemu?",
-      "answers": ["Karol Wielki", "Otton I Wielki", "Henryk IV", "Fryderyk Barbarossa"],
+      "question": "Który dokument ograniczający władzę monarchy podpisał król Jan bez Ziemi w 1215 roku?",
+      "answers": ["Dictatus Papae", "Wielka Karta Swobód (Magna Carta)", "Złota Bulla", "Traktat w Troyes"],
       "correct": 1
     },
     {
-      "question": "Jak nazywał się otoniczny system rządów polegający na obsadzaniu urzędów państwowych przez bezdzietnych biskupów?",
-      "answers": ["System hrabstw", "System kościoła rzeszy", "Feudalizm kontraktowy", "Cezaropapizm otoniczny"],
+      "question": "Który możnowładca odegrał kluczową rolę w zwołaniu pierwszego pełnego parlamentu angielskiego z udziałem rycerstwa i mieszczaństwa w 1265 roku?",
+      "answers": ["Szymon z Montfort", "Tomasz Becket", "Wilhelm Marshal", "Jan z Gandawy"],
+      "correct": 0
+    },
+    {
+      "question": "Na jakie dwie izby podzielił się ukształtowany w XIII wieku parlament angielski?",
+      "answers": ["Izbę Panów i Izbę Chłopów", "Izbę Lordów i Izbę Gmin", "Senat i Trybunat", "Kurię Królewską i Radę Państwa"],
       "correct": 1
     },
     {
-      "question": "Który cesarz przedstawił uniwersalistyczną wizję federacyjnego imperium podczas Zjazdu Gnieźnieńskiego w 1000 roku?",
-      "answers": ["Otton I", "Otton II", "Otton III", "Henryk II"],
-      "correct": 2
+      "question": "W jakim celu król Francji Filip IV Piękny po raz pierwszy w historii zwołał Stany Generalne w 1302 roku?",
+      "answers": ["Aby zebrać okup za króla", "Aby uzyskać poparcie stanów w konflikcie podatkowym z papieżem Bonifacym VIII", "Aby zreorganizować armię", "W celu ogłoszenia nowej krucjaty"],
+      "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: W uniwersalistycznej wizji Ottona III prowincja 'Sclavinia' oznaczała ziemie zamieszkane przez Słowian.",
+      "question": "Jaka jest główna różnica ustrojowa między monarchią stanową a wcześniejszą monarchią feudalną (patrymonialną)?",
+      "answers": ["Władca traci wszelkie prawa wojskowe", "Władza monarchy zostaje ograniczona na rzecz reprezentacji poszczególnych stanów (szlachty, duchowieństwa, miast)", "Chłopi zyskują pełne prawo do zasiadania w sądach królewskich", "Wszelkie decyzje podejmuje wyłącznie papież"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Wielka Karta Swobód (Magna Carta) gwarantowała m.in., że żaden wolny człowiek nie może być uwięziony bez wyroku sądowego (zasada habeas corpus).",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "W uniwersalistycznej koncepcji Ottona III, cztery główne krainy imperium to: Roma, Gallia, Germania oraz:",
-      "answers": ["Britannia", "Hispania", "Sclavinia", "Graecia"],
+      "question": "Która izba angielskiego parlamentu reprezentowała rycerstwo i bogate mieszczaństwo?",
+      "answers": ["Izba Lordów", "Izba Gmin", "Izba Królewska", "Izba Duchowieństwa"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Początki angielskiego parlamentu wiążą się z potrzebą uzyskiwania zgody stanów na nakładanie nowych podatków przez króla.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Stany Generalne we Francji dzieliły się na trzy stany (kurie). Które to były stany?",
+      "answers": ["Szlachta, duchowieństwo, mieszczaństwo", "Rycerstwo, chłopi, kupcy", "Kler, baronowie, mieszczanie", "Książęta, biskupi, rycerze"],
+      "correct": 0
+    },
+    {
+      "question": "Jakie znaczenie miała Wielka Karta Swobód dla późniejszego rozwoju parlamentaryzmu angielskiego?",
+      "answers": ["Była pierwszym dokumentem ograniczającym samowolę królewską i dającym podstawy do kontroli władcy przez poddanych", "Całkowicie znosiła monarchię", "Wprowadzała demokrację powszechną", "Przyznawała pełną władzę papieżowi nad Anglią"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: W przeciwieństwie do Anglii, Stany Generalne we Francji nie stały się stałą instytucją ograniczającą władzę królewską i zwoływane były nieregularnie.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Który angielski król był zmuszony do podpisania Wielkiej Karty Swobód pod naciskiem zbuntowanych baronów?",
+      "answers": ["Henryk II", "Ryszard Lwie Serce", "Jan bez Ziemi", "Edward I"],
       "correct": 2
     }
   ],
   "15": [
     {
-      "question": "Jak nazywa się słynny dokument Grzegorza VII z 1075 roku, zawierający tezy o absolutnej władzy papieża nad światem chrześcijańskim?",
-      "answers": ["Dictatus Papae", "Złota Bulla", "Konkordat wormacki", "Wielka Karta Swobód"],
+      "question": "Który władca zjednoczył skłócone plemiona mongolskie w 1206 roku, przyjmując tytuł Czyngis-chana?",
+      "answers": ["Temudżyn", "Batu-chan", "Attyla", "Tamerlan"],
       "correct": 0
     },
     {
-      "question": "Do jakiego zamku w 1077 roku udał się król Henryk IV, aby boso, w stroju pokutnym prosić papieża o zdjęcie klątwy?",
-      "answers": ["Do Wormacji", "Do Canossy", "Do Awinionu", "Do Clermont"],
+      "question": "W której bitwie z 1241 roku wojska mongolskie pokonały siły śląskiego rycerstwa, gdzie zginął książę Henryk Pobożny?",
+      "answers": ["Nad rzeką Lech", "Pod Legnicą", "Pod Mohaczem", "Na Kulikowym Polu"],
       "correct": 1
     },
     {
-      "question": "Jakie porozumienie z 1122 roku formalnie zakończyło spór o inwestyturę między cesarstwem a papiestwem?",
-      "answers": ["Traktat w Verdun", "Pokój w Wenecji", "Konkordat wormacki", "Sobór w Konstancji"],
-      "correct": 2
+      "question": "Jak nazywano stan względnego pokoju i stabilizacji w Eurazji po podbojach mongolskich, który ożywił handel na Jedwabnym Szlaku?",
+      "answers": ["Pax Romana", "Pax Mongolica", "Orda Nowożytna", "Kurułtaj Generalny"],
+      "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Zgodnie z konkordatem wormackim, cesarz nadawał biskupom inwestyturę duchowną za pomocą pierścienia i pastorału.",
+      "question": "Jaka była podstawowa jednostka taktyczno-organizacyjna armii mongolskiej licząca 10 000 wojowników?",
+      "answers": ["Legion", "Tumen", "Setna", "Falanha"],
+      "correct": 1
+    },
+    {
+      "question": "Które z państw ruskich zostało najmocniej politycznie i gospodarczo podporządkowane Mongołom, wchodząc w skład tzw. Złotej Ordy?",
+      "answers": ["Księstwo Włodzimiersko-Suzdalskie i inne ziemie Rusi", "Republika Nowogrodzka", "Państwo Samona", "Królestwo Litewskie"],
+      "correct": 0
+    },
+    {
+      "question": "W którym roku Mongołowie zdobyli i doszczętnie zniszczyli Kijów?",
+      "answers": ["1237", "1240", "1241", "1259"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Czyngis-chan i jego następcy stworzyli największe lądowe imperium w historii świata.",
       "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Kto dowodził mongolskim najazdem na Europę Środkową w latach 1240–1241?",
+      "answers": ["Czyngis-chan", "Batu-chan", "Ugedej", "Subedej"],
       "correct": 1
     },
     {
-      "question": "Który papież i który cesarz podpisali przełomowy Konkordat w Wormacji w 1122 roku?",
-      "answers": ["Grzegorz VII i Henryk IV", "Kalikst II i Henryk V", "Innocenty III i Fryderyk II", "Urban II i Henryk III"],
-      "correct": 1
+      "question": "Jakie były główne skutki najazdów mongolskich dla Rusi?",
+      "answers": ["Ponad dwustuletnie jarzmo mongolskie (Złota Orda), zniszczenie miast i zahamowanie rozwoju", "Szybki rozwój gospodarczy Rusi", "Zjednoczenie Rusi pod władzą Kijowa", "Chrystianizacja Mongołów"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Mongołowie stosowali politykę terroru i masowych rzezi, ale jednocześnie tolerowali różne religie na podbitych terenach.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Jakie pozytywne skutki dla Europy i Azji przyniosła ekspansja mongolska?",
+      "answers": ["Pax Mongolica – bezpieczeństwo szlaków handlowych i wymiana kulturowo-technologiczna", "Upadek handlu na Jedwabnym Szlaku", "Zjednoczenie Chin i Europy pod jednym panowaniem", "Zanikanie nomadyzmu w Azji"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: Najazdy mongolskie w XIII wieku spowodowały ogromne spustoszenie w Europie Środkowej i Wschodniej, ale nie doprowadziły do trwałego podboju ziem na zachód od Rusi.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
   ],
   "16": [
     {
-      "question": "Który papież rzucił hasło do I wyprawy krzyżowej na synodzie w Clermont w 1095 roku?",
-      "answers": ["Grzegorz VII", "Urban II", "Innocenty III", "Bonifacy VIII"],
+      "question": "Kto jest uznawany za prekursora stylu gotyckiego dzięki przebudowie bazyliki Saint-Denis pod Paryżem około 1140 roku?",
+      "answers": ["Św. Tomasz z Akwinu", "Opat Suger", "Alkuin z Yorku", "Piotr Pustelnik"],
       "correct": 1
     },
     {
-      "question": "Która wyprawa krzyżowa była jedyną rycerską krucjatą, która zdołała zdobyć Jerozolimę (1099 r.)?",
-      "answers": ["I Krucjata", "II Krucjata", "III Krucjata", "IV Krucjata"],
+      "question": "Które z poniższych rozwiązań konstrukcyjnych jest absolutnie charakterystyczne dla strzelistej architektury gotyckiej?",
+      "answers": ["Grube mury i małe, wąskie okna", "Ostre łuki, sklepienia krzyżowo-żebrowe i systemy przyporowe", "Półkoliste łuki i masywne wieże", "Drewniane stropy belkowe bez okien"],
+      "correct": 1
+    },
+    {
+      "question": "Co stanowiło główną ideę filozoficzno-teologiczną stojącą za wprowadzeniem wielkich witraży w katedrach gotyckich?",
+      "answers": ["Konieczność ukrycia wnętrza przed wzrokiem niewiernych", "Metafizyka światła – światło przenikające do świątyni miało symbolizować Boską obecność i oświecenie", "Oszczędność materiałów budowlanych", "Wymóg izolacji termicznej budynku"],
+      "correct": 1
+    },
+    {
+      "question": "Gdzie w 910 roku powstał słynny klasztor, który zapoczątkował wielką reformę odnowy duchowej Kościoła?",
+      "answers": ["W Canossie", "W Cluny", "W Wormacji", "W Reims"],
+      "correct": 1
+    },
+    {
+      "question": "Jak nazywały się autonomiczne organizacje zrzeszające średniowiecznych rzemieślników tej samej specjalności w miastach?",
+      "answers": ["Gildie", "Cechy", "Hanza", "Patrycjaty"],
+      "correct": 1
+    },
+    {
+      "question": "Proces uzyskiwania przez miasta autonomii prawnej i gospodarczej od feudałów nazywany jest:",
+      "answers": ["Inwestyturą", "Lokacją miejską", "Rzeczpospolitą", "Komendacją"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Lokacja na prawie magdeburskim lub lubeckim dawała miastom znaczną autonomię, własne sądownictwo i prawo do samorządu.",
+      "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Podczas której krucjaty doszło do zdobycia i doszczętnego złupienia chrześcijańskiego Konstantynopola (1204 r.) przez krzyżowców?",
-      "answers": ["I Krucjaty", "III Krucjaty", "IV Krucjaty", "Dziecięcej"],
-      "correct": 2
+      "question": "Jak nazywał się największy północnoeuropejski związek handlowy miast, którego przywódcą była Lubeka?",
+      "answers": ["Gildia kupiecka", "Hanza", "Stany Generalne", "Komuna miejska"],
+      "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Głównym zadaniem zakonów rycerskich (np. templariuszy czy joannitów) była wyłącznie praca naukowa i przepisywanie ksiąg.",
+      "question": "Które z poniższych nie było typowym elementem życia codziennego w średniowiecznym mieście?",
+      "answers": ["Brudne ulice i problemy sanitarne", "Targi i jarmarki jako centrum życia gospodarczego", "Uniwersytety jako nowe instytucje edukacyjne", "Powszechne korzystanie z kanalizacji i bieżącej wody"],
+      "correct": 3
+    },
+    {
+      "question": "Prawda czy Fałsz: Rozwój miast i urbanizacja w XII–XIII wieku był jednym z najważniejszych procesów transformacji Europy feudalnej w stronę gospodarki towarowo-pieniężnej.",
       "answers": ["Prawda", "Fałsz"],
-      "correct": 1
+      "correct": 0
     },
     {
-      "question": "Który zakon rycerski powstał pierwotnie w celu opieki nad chorymi pielgrzymami w szpitalu św. Jana w Jerozolimie?",
-      "answers": ["Templariusze", "Joannici", "Krzyżacy", "Kawaleros Mieczowi"],
-      "correct": 1
+      "question": "Kto w średniowiecznym mieście należał do tzw. patrycjatu?",
+      "answers": ["Najbogatsi kupcy i bankierzy tworzący elitę władzy miejskiej", "Rzemieślnicy zrzeszani w cechach", "Chłopi pańszczyźniani", "Rycerze służący biskupowi"],
+      "correct": 0
+    },
+    {
+      "question": "Jakie znaczenie miały katedry gotyckie dla mieszkańców średniowiecznych miast?",
+      "answers": ["Były centrum życia religijnego, społecznego i artystycznego, symbolem dumy miejskiej i potęgi Kościoła", "Służyły wyłącznie jako fortyfikacje", "Były prywatnymi kaplicami królewskimi", "Pełniły funkcję magazynów zboża"],
+      "correct": 0
     }
   ],
   "17": [
     {
-      "question": "Jak nazywał się proces wyzwalania się miast spod władzy feudałów i zdobywania autonomii prawnej?",
-      "answers": ["Ruch komunalny", "Lokacja", "Ujednolicenie cechowe", "Komendacja miejska"],
-      "correct": 0
-    },
-    {
-      "question": "Organizacje zrzeszające rzemieślników jednej specjalności w średniowiecznym mieście, kontrolujące ceny i jakość to:",
-      "answers": ["Gildie", "Cechy", "Hanza", "Komuny"],
+      "question": "Jak nazywa się okres anarchii i osłabienia władzy królewskiej w Niemczech w latach 1250–1273?",
+      "answers": ["Tetrarchia", "Wielkie bezkrólewie (Interregnum)", "Pax Mongolica", "Wojna stuletnia"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Lokacja miasta oznaczała założenie go lub reorganizację w oparciu o spisane, gotowe prawo (np. magdeburskie).",
+      "question": "Po śmierci którego wybitnego cesarza z dynastii Staufów w 1250 roku Rzesza Niemiecka pogrążyła się w kryzysie bezkrólewia?",
+      "answers": ["Fryderyka I Barbarossy", "Henryka VI", "Fryderyka II", "Ottona IV"],
+      "correct": 2
+    },
+    {
+      "question": "Kto objął tron niemiecki w 1273 roku, kończąc okres wielkiego bezkrólewia?",
+      "answers": ["Henryk IV", "Otton I Wielki", "Rudolf Habsburg", "Karol IV"],
+      "correct": 2
+    },
+    {
+      "question": "Jak okres wielkiego bezkrólewia wpłynął na pozycję ustrojową książąt terytorialnych w Niemczech?",
+      "answers": ["Doprowadził do całkowitej likwidacji ich niezależności", "Znacznie wzmocnił ich pozycję, dając im pełną niezależność i prawo wyboru monarchy", "Ograniczył ich rolę wyłącznie do dowodzenia wojskiem", "Zostali oni zastąpieni przez urzędników papieskich"],
+      "correct": 1
+    },
+    {
+      "question": "Które z niemieckich miast stało się tradycyjnym miejscem wyboru królów niemieckich?",
+      "answers": ["Frankfurt nad Menem", "Akwizgran", "Monachium", "Berlin"],
+      "correct": 0
+    },
+    {
+      "question": "Z jakiej dynastii pochodził Rudolf I Habsburg?",
+      "answers": ["Staufów", "Wittelsbachów", "Habsburgów", "Luksemburgów"],
+      "correct": 2
+    },
+    {
+      "question": "Prawda czy Fałsz: Wielkie bezkrólewie doprowadziło do dalszej feudalnej decentralizacji Rzeszy Niemieckiej.",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Jak nazywało się zrzeszenie bogatych kupców w miastach średniowiecznych, dbające o monopole handlowe?",
-      "answers": ["Cech", "Gildia", "Zgromadzenie", "Ława"],
+      "question": "Jakie były główne skutki wielkiego bezkrólewia?",
+      "answers": ["Wzmocnienie władzy książąt terytorialnych i osłabienie centralnej władzy królewskiej", "Zjednoczenie Niemiec pod silną władzą cesarską", "Utrata ziem włoskich na rzecz papiestwa", "Wprowadzenie elekcji papieskiej"],
+      "correct": 0
+    },
+    {
+      "question": "Prawda czy Fałsz: W okresie wielkiego bezkrólewia wielu książąt terytorialnych uzyskało praktycznie pełną suwerenność.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Który cesarz z dynastii Staufów był ostatnim wielkim władcą przed okresem bezkrólewia?",
+      "answers": ["Fryderyk I Barbarossa", "Henryk VI", "Fryderyk II Hohenstauf", "Konrad IV"],
+      "correct": 2
+    },
+    {
+      "question": "Jak nazywano elekcyjnych książąt, którzy mieli prawo wyboru króla niemieckiego?",
+      "answers": ["Missi dominici", "Elektorzy", "Margrabiowie", "Landgrafowie"],
       "correct": 1
     },
     {
-      "question": "Które miasto stało na czele potężnego północnoeuropejskiego związku handlowego zwanego Hanzą?",
-      "answers": ["Gdańsk", "Lubeka", "Londyn", "Brugia"],
-      "correct": 1
+      "question": "Prawda czy Fałsz: Rudolf Habsburg po 1273 roku zaczął odbudowę władzy królewskiej, kładąc podwaliny pod potęgę dynastii Habsburgów.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
     }
   ],
   "18": [
     {
-      "question": "Jaka metoda naukowa, dążąca do rozumowego udowodnienia dogmatów wiary, dominowała na średniowiecznych uniwersytetach?",
-      "answers": ["Empiryzm", "Scholastyka", "Humanizm", "Sceptycyzm"],
+      "question": "Jaka była dynastyczna przyczyna wybuchu wojny stuletniej w 1337 roku między Anglią a Francją?",
+      "answers": ["Wygasnięcie głównej linii dynastii Kapetyngów we Francji", "Obalenie Merowingów przez Karolingów", "Najazd Normanów na Flandrię", "Śmierć Ryszarda III pod Bosworth"],
+      "correct": 0
+    },
+    {
+      "question": "Która formacja wojskowa przyniosła Anglikom spektakularne zwycięstwa w bitwach pod Crécy (1346) i Azincourt (1415)?",
+      "answers": ["Ciężka jazda rycerska", "Oddziały angielskich i walijskich długich łuczników", "Kusznicy genueńscy", "Wczesna artyleria prochowa"],
       "correct": 1
     },
     {
-      "question": "Który uniwersytet, słynący z nauk prawnych, uznaje się za najstarszy w Europie (zał. w XI w.)?",
-      "answers": ["Uniwersytet Paryski (Sorbona)", "Uniwersytet w Bolonii", "Uniwersytet w Oksfordzie", "Uniwersytet w Salerno"],
-      "correct": 1
+      "question": "Które strategiczne terytorium stanowiło ważną ekonomiczną przyczynę wojny stuletniej?",
+      "answers": ["Bretania", "Akwitania", "Flandria", "Burgundia"],
+      "correct": 2
     },
     {
-      "question": "Prawda czy Fałsz: Aby studiować na prestiżowym wydziale teologii lub prawa, student musiał najpierw ukończyć kurs na wydziale sztuk wyzwolonych.",
+      "question": "Jaką kluczową rolę odegrała Joanna d’Arc w wojnie stuletniej?",
+      "answers": ["Oswobodziła Orlean i przyczyniła się do koronacji Karola VII w Reims", "Była angielską szpiegiem", "Dowodziła flotą francuską", "Negocjowała pokój"],
+      "correct": 0
+    },
+    {
+      "question": "W którym francuskim mieście w 1431 roku Joanna d'Arc została spalona na stosie?",
+      "answers": ["Paryż", "Orlean", "Reims", "Rouen"],
+      "correct": 3
+    },
+    {
+      "question": "W którym roku zakończyła się wojna stuletnia?",
+      "answers": ["1348", "1385", "1453", "1492"],
+      "correct": 2
+    },
+    {
+      "question": "Prawda czy Fałsz: Wojna stuletnia przyczyniła się do wzrostu świadomości narodowej zarówno we Francji, jak i w Anglii.",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Jak nazywał się oficjalny status uniwersytetu w średniowieczu, oznaczający pełnoprawną korporację akademicką?",
-      "answers": ["Studium generale", "Skryptorium", "Autarkia", "Cech naukowy"],
+      "question": "Jakie były najważniejsze skutki wojny stuletniej dla Francji?",
+      "answers": ["Wzmocnienie monarchii i poczucia tożsamości narodowej", "Utrata Normandii na rzecz Anglii", "Upadek dynastii Kapetyngów", "Zjednoczenie Francji z Anglią"],
       "correct": 0
     },
     {
-      "question": "Który europejski uniwersytet słynął w XII i XIII wieku jako absolutnie najważniejsze centrum studiów teologicznych?",
-      "answers": ["Uniwersytet w Bolonii", "Uniwersytet w Salerno", "Uniwersytet Paryski (Sorbona)", "Uniwersytet w Oksfordzie"],
+      "question": "Który król Anglii zgłosił roszczenia do tronu francuskiego, co stało się formalną przyczyną wojny?",
+      "answers": ["Edward I", "Edward III", "Henryk V", "Ryszard II"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Wprowadzenie broni palnej i upadek znaczenia ciężkiej jazdy rycerskiej było jednym z ważnych skutków militarnych wojny stuletniej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Która bitwa jest symbolem odwrócenia losów wojny dzięki działaniu Joanny d’Arc?",
+      "answers": ["Crécy", "Poitiers", "Orlean", "Azincourt"],
       "correct": 2
+    },
+    {
+      "question": "Jakie długofalowe skutki miała wojna stuletnia dla Anglii?",
+      "answers": ["Utrata prawie wszystkich posiadłości we Francji i wewnętrzne konflikty (Wojna Dwóch Róż)", "Zdobycie tronu Francji", "Zjednoczenie z Francją", "Rozwój floty wojennej"],
+      "correct": 0
     }
   ],
-  "19": [
+   "19": [
     {
-      "question": "Kto był twórcą potężnego systemu filozoficznego zwanego tomizmem, który dokonał syntezy chrześcijaństwa z myślą Arystotelesa?",
-      "answers": ["Św. Augustyn", "Św. Tomasz z Akwinu", "Piotr Abelard", "Albert Wielki"],
+      "question": "Który czeski reformator religijny został skazany i spalony na stosie na soborze w Konstancji w 1415 roku?",
+      "answers": ["Piotr Valdo", "Jan Hus", "Ariusz", "Tomasz z Akwinu"],
       "correct": 1
     },
     {
-      "question": "Jak w filozofii św. Tomasza określano relację między rozumem a wiarą?",
-      "answers": ["Rozum i wiara są w całkowitej sprzeczności", "Rozum uzupełnia i prowadzi do wrót wiary", "Wiara jest zbędna, liczy się tylko rozum", "Rozum nie jest w stanie pojąć niczego materialnego"],
+      "question": "Przeciwko któremu ruchowi heretyckiemu w południowej Francji papież Innocenty III ogłosił w 1209 roku krucjatę?",
+      "answers": ["Waldensom", "Albigensom (katarom)", "Husytom", "Arianom"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Św. Tomasz z Akwinu sformułował tzw. pięć dróg, czyli logicznych, filozoficznych dowodów na istnienie Boga.",
+      "question": "Który ruch heretycki postulował powrót do ewangelicznego ubóstwa i odrzucał kościelną hierarchię?",
+      "answers": ["Waldensi", "Katarzy", "Lollardzi", "Donatyści"],
+      "correct": 0
+    },
+    {
+      "question": "W jakim głównym celu Kościół powołał Inkwizycję?",
+      "answers": ["Do walki z herezjami i obrony jedności wiary", "Do organizacji krucjat", "Do reformy klasztorów", "Do kontrolowania uniwersytetów"],
+      "correct": 0
+    },
+    {
+      "question": "Jak nazywało się radykalne skrzydło husytów?",
+      "answers": ["Albigensi", "Taboryci", "Utrakwiści", "Lollardzi"],
+      "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Katarzy wyznawali dualizm – wiarę w dwóch bogów (dobrego i złego).",
       "answers": ["Prawda", "Fałsz"],
       "correct": 0
     },
     {
-      "question": "Którego starożytnego filozofa pisma św. Tomasz z Akwinu zaadaptował na potrzeby chrześcijańskiej dogmatyki?",
-      "answers": ["Platona", "Arystotelesa", "Sokratesa", "Cycerona"],
+      "question": "Który papież sformalizował Inkwizycję papieską w 1231 roku?",
+      "answers": ["Innocenty III", "Grzegorz IX", "Urban II", "Innocenty IV"],
       "correct": 1
     },
     {
-      "question": "Jak św. Tomasz z Akwinu zdefiniował człowieka w aspekcie jego natury cielesno-duchowej (hylemorfizm)?",
-      "answers": ["Jako czystego ducha uwięzionego w złym ciele", "Jako nierozerwalną jedność formy (duszy) i materii (ciała)", "Jako biologiczną maszynę bez wolnej woli", "Jako złudzenie materialne"],
+      "question": "Prawda czy Fałsz: Herezje w XII–XV wieku były często reakcją na bogacenie się Kościoła i odejście od ubóstwa ewangelicznego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Jakie były główne poglądy waldensów?",
+      "answers": ["Odrzucenie bogactwa Kościoła i powrót do apostolskiego ubóstwa", "Dualizm dobra i zła", "Odrzucenie chrztu dzieci", "Kult ikon"],
+      "correct": 0
+    },
+    {
+      "question": "Gdzie w 1415 roku spalono Jana Husa?",
+      "answers": ["W Pradze", "W Konstancji", "W Rzymie", "W Wittenberdze"],
       "correct": 1
+    },
+    {
+      "question": "Prawda czy Fałsz: Krucjata albigenska (1209–1229) doprowadziła do ogromnych zniszczeń w Langwedocji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0
+    },
+    {
+      "question": "Jakie znaczenie miała walka z herezjami dla Kościoła?",
+      "answers": ["Umacniała jego doktrynalną jedność, ale jednocześnie pokazywała kryzys moralny i potrzebę reform", "Nie miała żadnego znaczenia", "Przyspieszyła upadek Kościoła", "Doprowadziła do zjednoczenia z Kościołem wschodnim"],
+      "correct": 0
     }
   ],
   "20": [
-    {
-      "question": "Który król Anglii został zmuszony przez zbuntowanych baronów do podpisania Wielkiej Karty Swobód (Magna Charta) w 1215 roku?",
-      "answers": ["Ryszard Lwie Serce", "Jan bez Ziemi", "Edward I", "Henryk II"],
-      "correct": 1
-    },
-    {
-      "question": "Która kluczowa zasada prawna gwarantowała w Anglii, że żaden wolny człowiek nie zostanie uwięziony bez wyroku sądowego?",
-      "answers": ["Dictatus Papae", "Habeas Corpus", "Złota Bulla", "Zasada komendacji"],
-      "correct": 1
-    },
-    {
-      "question": "W którym roku we Francji król Filip IV Piękny po raz pierwszy zwołał Stany Generalne?",
-      "answers": ["1215 r.", "1265 r.", "1302 r.", "1309 r."],
-      "correct": 2
-    },
-    {
-      "question": "Prawda czy Fałsz: Początki angielskiego Parlamentu (z udziałem rycerstwa i mieszczaństwa) wiążą się ze zgromadzeniem zwołanym przez Szymona z Montfort w 1265 roku.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0
-    },
-    {
-      "question": "Jak nazywała się izba angielskiego parlamentu, w której zasiadali przedstawiciele rycerstwa i miast?",
-      "answers": ["Izba Lordów", "Izba Gmin", "Rada Królewska", "Stany Generalne"],
-      "correct": 1
-    }
-  ],
+  {
+    "question": "Między którymi dwoma rodami toczyła się w Anglii w latach 1455–1485 dynastyczna Wojna Dwóch Róż?",
+    "answers": ["Walezjuszami i Kapetyngami", "Lancasterami i Yorkami", "Tudorami i Stuartami", "Habsburgami i Hohenzollernami"],
+    "correct": 1
+  },
+  {
+    "question": "Która krwawa bitwa z 1485 roku ostatecznie zakończyła Wojnę Dwóch Róż, przynosząc śmierć Ryszardowi III?",
+    "answers": ["Bitwa pod Towton", "Bitwa pod Bosworth", "Bitwa pod Hastings", "Bitwa pod Crécy"],
+    "correct": 1
+  },
+  {
+    "question": "Która dynastia objęła rządy w Anglii po zakończeniu Wojny Dwóch Róż, jednocząc oba skłócone rody?",
+    "answers": ["Dynastia Lancasterów", "Dynastia Yorków", "Dynastia Tudorów", "Dynastia Stuartów"],
+    "correct": 2
+  },
+  {
+    "question": "Która bitwa z 1461 roku uważana jest za najkrwawsze starcie zbrojne na terytorium Wysp Brytyjskich w okresie Wojny Dwóch Róż?",
+    "answers": ["Bitwa pod Bosworth", "Bitwa pod Towton", "Bitwa pod Agincourt", "Bitwa pod St Albans"],
+    "correct": 1
+  },
+  {
+    "question": "Jakie były długofalowe skutki ustrojowe Wojny Dwóch Róż dla angielskiej sceny politycznej?",
+    "answers": [
+      "Całkowite zniszczenie i przetrzebienie starej arystokracji feudalnej, co pozwoliło Tudorom na wzmocnienie władzy królewskiej",
+      "Wprowadzenie republiki parlamentarnej",
+      "Podporządkowanie Anglii królowi Francji",
+      "Likwidacja urzędu króla na rzecz Izby Gmin"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Jakie konkretne symbole roślinne (róże) znajdowały się pierwotnie w herbach dwóch rywalizujących rodów – Lancasterów i Yorków?",
+    "answers": [
+      "Lancasterowie mieli białą różę, a Yorkowie czerwoną",
+      "Lancasterowie mieli czerwoną różę, a Yorkowie białą",
+      "Lancasterowie mieli złotą różę, a Yorkowie czarną",
+      "Lancasterowie mieli zieloną różę, a Yorkowie niebieską"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Kto był pierwszym władcą z nowej dynastii Tudorów, który zasiadł na angielskim tronie i poprzez małżeństwo z Elżbietą York ostatecznie scementował pokój?",
+    "answers": ["Henryk VIII", "Henryk VII", "Edward VI", "Ryszard III"],
+    "correct": 1
+  },
+  {
+    "question": "Który król Anglii z dynastii Lancasterów, zmagający się z chorobą psychiczną, stał się swoim słabym panowaniem bezpośrednim zarzewiem konfliktu?",
+    "answers": ["Henryk VI", "Edward IV", "Ryszard II", "Henryk V"],
+    "correct": 0
+  },
+  {
+    "question": "Kto w czasie Wojny Dwóch Róż nosił słynny przydomek „Twórca Królów” (Kingmaker) z racji ogromnego wpływu na obsadę angielskiego tronu?",
+    "answers": ["Ryszard Neville, hrabia Warwick", "John Gaunt", "Edmund Tudor", "Thomas Cromwell"],
+    "correct": 0
+  },
+  {
+    "question": "Które starcie zbrojne z 1455 roku uznaje się oficjalnie za pierwszą bitwę Wojny Dwóch Róż?",
+    "answers": ["Bitwa pod Tewkesbury", "Bitwa pod Wakefield", "Pierwsza bitwa pod St Albans", "Bitwa pod Mortimer's Cross"],
+    "correct": 2
+  }
+],
   "21": [
-    {
-      "question": "Który ruch heretycki w południowej Francji wyznawał radykalny dualizm (dobry świat duchowy kontra zły świat materialny)?",
-      "answers": ["Waldensi", "Katarzy (Albigensi)", "Lollardowie", "Husyci"],
-      "correct": 1
-    },
-    {
-      "question": "Jak nazywał się ruch ubogich zapoczątkowany przez Piotra Waldo, postulujący powrót do ewangelicznego ubóstwa i czytanie Biblii?",
-      "answers": ["Katarzy", "Waldensi", "Arianie", "Templariusze"],
-      "correct": 1
-    },
-    {
-      "question": "Który papież powołał w 1231 roku Inkwizycję papieską jako stałą instytucję sądowniczą do walki z herezjami?",
-      "answers": ["Innocenty III", "Grzegorz IX", "Urban II", "Bonifacy VIII"],
-      "correct": 1
-    },
-    {
-      "question": "Prawda czy Fałsz: Krucjata albigenska (1209-1229) była krwawą wojną religijną wymierzoną w katarów w południowej Francji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0
-    },
-    {
-      "question": "Który region geograficzny w południowej Francji został spustoszony w wyniku krucjaty przeciw albigensom?",
-      "answers": ["Bretania", "Oksytania (Langwedocja)", "Normandia", "Burgundia"],
-      "correct": 1
-    }
-  ],
+  {
+    "question": "Który sułtan osmański dowodził wojskami tureckimi podczas udanego oblężenia i zdobycia Konstantynopola w 1453 roku?",
+    "answers": ["Murad II", "Mehmed II (Zdobywca)", "Sulejman Wspaniały", "Osman I"],
+    "correct": 1
+  },
+  {
+    "question": "Która wielka bitwa z 1444 roku zakończyła się klęską armii chrześcijańskiej i śmiercią króla Władysława Warneńczyka z rąk Turków?",
+    "answers": ["Bitwa na Kosowym Polu", "Bitwa pod Warną", "Bitwa pod Mohaczem", "Bitwa pod Nikopolis"],
+    "correct": 1
+  },
+  {
+    "question": "Jak nazywała się elitarna, karna piechota armii osmańskiej, rekrutowana przymusowo spośród chrześcijańskich dzieci poddanych islamizacji?",
+    "answers": ["Spahisi", "Janczarzy", "Mamelucy", "Hajducy"],
+    "correct": 1
+  },
+  {
+    "question": "Która bitwa z 1389 roku przypieczętowała turecki podbój Bałkanów poprzez złamanie oporu koalicji książąt serbskich?",
+    "answers": ["Bitwa pod Nikopolis", "Bitwa pod Warną", "Bitwa na Kosowym Polu", "Bitwa pod Mohaczem"],
+    "correct": 2
+  },
+  {
+    "question": "Jakie symboliczne i polityczne znaczenie dla Europy miał upadek Konstantynopola w 1453 roku?",
+    "answers": [
+      "Oznaczał ostateczny kres Cesarstwa Bizantyjskiego i otwarcie Turkom drogi do ekspansji w Europie Środkowej",
+      "Doprowadził do natychmiastowego zjednoczenia Kościoła katolickiego i prawosławnego",
+      "Zakończył handel europejski z Azją",
+      "Wywołał upadek monarchii w Niemczech"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Która wcześniejsza klęska Bizancjum z Turkiem Seldżuckim (1071 r.), wspomniana w notatkach jako powód szukania ratunku na Zachodzie, zapoczątkowała utratę Anatolii?",
+    "answers": ["Bitwa pod Ankarą", "Bitwa pod Manzikertem", "Bitwa nad rzeką Jarmuk", "Bitwa pod Lepanto"],
+    "correct": 1
+  },
+  {
+    "question": "Jak nazywał się stosowany przez Imperium Osmańskie system przymusowego poboru chrześcijańskich chłopców (tzw. branka), z których szkolono janczarów?",
+    "answers": ["Haracz", "Timar", "Dewszirme", "Dżizja"],
+    "correct": 2
+  },
+  {
+    "question": "Jak nazywał się ostatni cesarz bizantyjski, który zginął z bronią w ręku podczas obrony murów Konstantynopola w 1453 roku?",
+    "answers": ["Konstantyn XI Paleolog", "Justynian II", "Jan VIII Paleolog", "Andronik IV"],
+    "correct": 0
+  },
+  {
+    "question": "Która wielka bitwa z 1396 roku, będąca nieudaną krucyfiatą zachodnioeuropejskiego rycerstwa pod wodzą Zygmunta Luksemburskiego, zakończyła się pogromem chrześcijan?",
+    "answers": ["Bitwa pod Ankarą", "Bitwa pod Nikopolis", "Bitwa pod Mohaczem", "Bitwa pod Wiedniem"],
+    "correct": 1
+  },
+  {
+    "question": "Jak nazywały się oddziały lekkiej, nieregularnej kawalerii osmańskiej, które dokonywały łupieżczych zwiadów i siały terror na terytoriach chrześcijańskich przed główną armią?",
+    "answers": ["Spahisi", "Mamelucy", "Asakiry", "Akindżi"],
+    "correct": 3
+  }
+],
   "22": [
-    {
-      "question": "Które zakony nazywamy żebrakami (mendykanckimi) ze względu na brak stałych dóbr ziemskich i życie z jałmużny?",
-      "answers": ["Benedyktyni i cystersi", "Franciszkanie i dominikanie", "Templariusze i joannici", "Kanonicy regularni"],
-      "correct": 1
-    },
-    {
-      "question": "Który zakon został powołany przez św. Dominika Guzmána specjalnie do zwalczania herezji poprzez edukację i kaznodziejstwo?",
-      "answers": ["Franciszkanie", "Dominikanie", "Benedyktyni", "Krzyżacy"],
-      "correct": 1
-    },
-    {
-      "question": "Prawda czy Fałsz: Franciszkanie (Zakon Braci Mniejszych) kładli nacisk na radosne, absolutne ubóstwo i bliskość z prostym ludem w miastach.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0
-    },
-    {
-      "question": "Co odróżniało zakony żebracze od wcześniejszych zakonów takich jak benedyktyni?",
-      "answers": ["Życie w całkowitej izolacji w lasach", "Rezygnacja z klauzury na rzecz aktywnej pracy kaznodziejskiej w miastach", "Obowiązek walki zbrojnej na krucjatach", "Zakaz studiowania na uniwersytetach"],
-      "correct": 1
-    },
-    {
-      "question": "Jak nazywa się słynna idea św. Franciszka z Asyżu, głosząca miłość i szacunek do całego świata przyrody?",
-      "answers": ["Tomizm", "Scholastyka", "Braterstwo stworzeń", "Nikolaizm"],
-      "correct": 2
-    }
-  ],
+  {
+    "question": "Małżeństwo których władców z 1469 roku położyło fundament pod zjednoczenie Hiszpanii?",
+    "answers": ["Izabeli Kastylijskiej z Ferdynandem Aragońskim", "Marii Stuart z Henrykiem VII", "Eleonory Akwitańskiej z Henrykiem II", "Jadwigi z Władysławem Jagiełłą"],
+    "correct": 0
+  },
+  {
+    "question": "Które miasto zostało zdobyte przez Hiszpanów w 1492 roku, co ostatecznie zakończyło proces rekonkwisty?",
+    "answers": ["Kordoba", "Grenada", "Madryt", "Toledo"],
+    "correct": 1
+  },
+  {
+    "question": "Które doniosłe wydarzenie geograficzne miało miejsce w tym samym roku, w którym zakończono rekonkwistę Grenady (1492)?",
+    "answers": [
+      "Opłynięcie Afryki przez Vasco da Gamę",
+      "Odkrycie Ameryki przez Krzysztofa Kolumba pod hiszpańską banderą",
+      "Dotarcie Ferdynanda Magellana do Filipin",
+      "Podbój imperium Azteków przez Cortesa"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jak nazywał się oficjalny edykt (dekret z Alhambry) wydany przez Parę Królewską w 1492 roku w celu ujednolicenia religijnego kraju?",
+    "answers": [
+      "Nakaz bezwzględnego wypędzenia Żydów, którzy odmówili przyjęcia chrztu",
+      "Wprowadzenie wolności wyznania dla muzułmanów",
+      "Likwidacja sądów inkwizycyjnych",
+      "Przeniesienie stolicy do Sewilli"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Kto stanął na czele zreorganizowanej, surowej Inkwizycji Hiszpańskiej jako pierwszy Wielki Inkwizytor generalny?",
+    "answers": ["Tomas de Torquemada", "Kardynał Cisneros", "Bartolome de las Casas", "Ignacy Loyola"],
+    "correct": 0
+  },
+  {
+    "question": "Jak w historii Półwyspu Iberyjskiego określa się trwający setki lat proces walk chrześcijan o odzyskanie ziem z rąk Maurów, sfinalizowany w 1492 roku?",
+    "answers": ["Konkwista", "Rekonkwista", "Ikonoklazm", "Renovatio Imperii"],
+    "correct": 1
+  },
+  {
+    "question": "Pod czyją banderą (którego zjednoczonego państwa) Krzysztof Kolumb odbył w 1492 roku wyprawę wyznaczającą w klasycznej periodyzacji koniec średniowiecza?",
+    "answers": ["Portugalii", "Włoch (Wenecji)", "Hiszpanii (Kastylii i Aragonii)", "Państwa Franków"],
+    "correct": 2
+  },
+  {
+    "question": "Jak nazywał się słynny traktat z 1494 roku, w którym Hiszpania i Portugalia dokonały podziału nowo odkrytych ziem na kuli ziemskiej wzdłuż południka?",
+    "answers": ["Traktat w Tordesillas", "Pokój w Grenadzie", "Złota Bulla", "Traktat w Saragossie"],
+    "correct": 0
+  },
+  {
+    "question": "Jak w XV-wiecznej Hiszpanii nazywano Żydów, którzy pod naciskiem politycznym przyjęli chrześcijaństwo, ale byli stale inwigilowani przez Inkwizycję?",
+    "answers": ["Moryskowie", "Marrani", "Mozarabowie", "Albigensi"],
+    "correct": 1
+  },
+  {
+    "question": "Które królestwo na Półwyspie Iberyjskim zachowało pełną niezależność w roku 1492 i zostało włączone do korony hiszpańskiej dopiero w XVI wieku?",
+    "answers": ["Katalonia", "Leon", "Galicja", "Nawarra"],
+    "correct": 3
+  }
+],
   "23": [
     {
-      "question": "Jak nazywał się wielki wódz, który w 1206 roku zjednoczył koczownicze plemiona mongolskie?",
-      "answers": ["Czyngis-chan (Temudżyn)", "Batu-chan", "Tamerlan", "Kubałaj-chan"],
-      "correct": 0
-    },
-    {
-      "question": "W którym roku wojska mongolskie doszczętnie zniszczyły Kijów, narzucając Rusi dwuwiekową zależność (jarzmo)?",
-      "answers": ["1206 r.", "1240 r.", "1241 r.", "1385 r."],
+      "question": "Jak w historii Kościoła określa się okres z lat 1309–1377, kiedy papieże rezydowali we Francji?",
+      "answers": ["Wielka schizma zachodnia", "Niewola awiniońska", "Reforma kluniacka", "Cezaropapizm"],
       "correct": 1
     },
     {
-      "question": "W której bitwie w 1241 roku wojska mongolskie rozbiły rycerstwo polskie i śląskie, a śmierć poniósł Henryk Pobożny?",
-      "answers": ["Pod Bouvines", "Na Lechowym Polu", "Pod Legnicą", "Na Kulikowym Polu"],
+      "question": "Czym charakteryzował się głęboki kryzys ustrojowy Kościoła zwany wielką schizmą zachodnią (1378–1417)?",
+      "answers": ["Zakazem odprawiania mszy", "Jednoczesnymi rządami dwóch, a potem nawet trzech papieży roszczących sobie prawo do Tyrułu", "Masowym niszczeniem ikon", "Przejściem papiestwa na islam"],
+      "correct": 1
+    },
+    {
+      "question": "Który sobór powszechny (1414–1418) ostatecznie zakończył wielką schizmę zachodnią, wybierając papieża Marcina V?",
+      "answers": ["Sobór w Pizie", "Sobór w Konstancji", "Sobór w Bazylei", "Sobór Trydencki"],
+      "correct": 1
+    },
+    {
+      "question": "Jak nazywał się nurt w późnośredniowiecznym Kościele, rozwijany podczas schizmy, głoszący wyższość władzy soboru powszechnego nad władzą papieża?",
+      "answers": ["Papizm", "Koncyliaryzm", "Scholastyka", "Fideizm"],
+      "correct": 1
+    },
+    {
+      "question": "Który król Francji doprowadził do załamania potęgi politycznej papiestwa na początku XIV wieku, co poskutkowało przeniesieniem stolicy apostolskiej do Awinionu?",
+      "answers": ["Filip II August", "Ludwik IX Święty", "Filip IV Piękny", "Karol V Mądry"],
       "correct": 2
     },
     {
-      "question": "Prawda czy Fałsz: 'Pax Mongolica' to okres pokoju i stabilizacji w Azji, który umożliwił bezpieczny rozwój handlu na Jedwabnym Szlaku.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Który czeski reformator religijny został podstępnie uwięziony i spalony na stosie podczas Soboru w Konstancji w 1415 roku?",
+      "answers": ["Jan Hus", "Jan Wiklif", "Hieronim z Pragi", "Tomasz Müntzer"],
       "correct": 0
     },
     {
-      "question": "Kto dowodził wojskami mongolskimi podczas niszczycielskiego najazdu na Ruś, Polskę i Węgry w latach 1240-1241?",
-      "answers": ["Czyngis-chan", "Batu-chan", "Ugedej", "Hulagu"],
+      "question": "Który sobór z 1409 roku, zwołany w celu zakończenia schizmy, zamiast rozwiązać kryzys, pogłębił go poprzez wybór trzeciego papieża?",
+      "answers": ["Sobór w Bazylei", "Sobór w Pizie", "Sobór w Wormacji", "Sobór Florencki"],
+      "correct": 1
+    },
+    {
+      "question": "Który papież w 1377 roku podjął decyzję o powrocie ze stolicy apostolskiej w Awinionie do Rzymu, co bezpośrednio poprzedziło wybuch wielkiej schizmy?",
+      "answers": ["Klemens V", "Grzegorz XI", "Urban VI", "Bonifacy VIII"],
+      "correct": 1
+    },
+    {
+      "question": "Jak nazywał się XIV-wieczny angielski teolog i profesor Oksfordu, który krytykował bogactwo Kościoła, odrzucał autorytet papieża i przełożył Biblię na język narodowy?",
+      "answers": ["John Wycliffe (Jan Wiklif)", "Jan Hus", "Piotr Valdo", "Tomasz z Akwinu"],
+      "correct": 0
+    },
+    {
+      "question": "Jak w średniowieczu określano powszechny i potępiany przez reformatorów proceder handlu godnościami, urzędami oraz dobrami kościelnymi?",
+      "answers": ["Nepotyzm", "Nikolaizm", "Symonia", "Inwestytura"],
+      "correct": 2
+    },
+    {
+      "question": "Jakie porozumienie kościelne zawarto w 1439 roku na soborze w Ferrarze i Florencji, próbując zjednoczyć Kościół zachodni z bizantyjskim w obliczu zagrożenia tureckiego?",
+      "answers": ["Unię brzeską", "Unię florencką", "Konkordat wormacki", "Pokój w Augsburgu"],
       "correct": 1
     }
   ],
   "24": [
     {
-      "question": "Jak określa się okres w historii Kościoła (1309-1377), gdy papieże rezydowali we Francji pod wpływem tamtejszych królów?",
-      "answers": ["Saeculum obscurum", "Niewola awiniońska", "Wielka Schizma Zachodnia", "Koncyliaryzm"],
+      "question": "W jakich strukturach publicznych kobiety w dojrzałym średniowieczu najczęściej zyskiwały przestrzeń do niezależnej działalności intelektualnej?",
+      "answers": ["W radach miejskich", "W murach klasztornych jako zakonnice, ksienie lub mistyczki", "W administracji skarbowej", "Na uniwersytetach jako profesorowie prawa"],
       "correct": 1
     },
     {
-      "question": "Kryzys polegający na jednoczesnym panowaniu dwóch, a nawet trzech konkurujących papieży (1378-1417) to:",
-      "answers": ["Wielka Schizma Wschodnia", "Wielka Schizma Zachodnia", "Niewola awiniońska", "Kryzys gregoriański"],
+      "question": "Która wybitna średniowieczna mistyczka, kompozytorka i lekarka z XII wieku stała się symbolem kobiecej podmiotowości intelektualnej w Niemczech?",
+      "answers": ["Katarzyna ze Sieny", "Hildegarda z Bingen", "Joanna d'Arc", "Klara z Asyżu"],
       "correct": 1
     },
     {
-      "question": "Jak nazywa się pogląd doktrynalny stawiający władzę Soboru Powszechnego ponad władzą papieża?",
-      "answers": ["Kurializm", "Papizm", "Koncyliaryzm", "Cezaropapizm"],
-      "correct": 2
+      "question": "Jakie były podstawowe role społeczne i rodzinne jednoznacznie przypisywane większości kobiet w średniowiecznym społeczeństwie?",
+      "answers": ["Służba wojskowa i dyplomatyczna", "Prowadzenie gospodarstwa domowego, wychowanie potomstwa i podległość mężowi lub ojcu", "Wyłączne kierowanie cechami kupieckimi", "Sprawowanie urzędów sądowniczych na wsiach"],
+      "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Wielką Schizmę Zachodnią udało się ostatecznie zakończyć dzięki decyzjom podjętym na Soborze w Konstancji (1414-1418).",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Która królowa Francji i Anglii, żyjąca w XII wieku, zapisała się w historii jako jedna z najpotężniejszych politycznie kobiet średniowiecza?",
+      "answers": ["Blanka Kastylijska", "Eleonora Akwitańskiej", "Izabela Francuska", "Matylda normandzka"],
+      "correct": 1
+    },
+    {
+      "question": "Jakie zabezpieczenie ekonomiczne otrzymywała kobieta z elit w prawie średniowiecznym ze strony swojej rodziny przy zawieraniu małżeństwa?",
+      "answers": ["Wiano", "Posag", "Alodium", "Beneficjum"],
+      "correct": 1
+    },
+    {
+      "question": "Która XV-wieczna francuska bohaterka narodowa, powołując się na boskie objawienia, poprowadziła armię do walki z Anglikami podczas wojny stuletniej?",
+      "answers": ["Joanna d'Arc", "Krystyna de Pisan", "Izabela Bawarska", "Maria Burgundzka"],
       "correct": 0
     },
     {
-      "question": "Który król Francji doprowadził do załamania potęgi papiestwa i zapoczątkował 'niewolę awiniońską'?",
-      "answers": ["Filip II August", "Filip IV Piękny", "Ludwik IX Święty", "Karol VII"],
+      "question": "Która późnośredniowieczna pisarka, autorka 'Księgi o Mieście Kobiet', jest uznawana za pierwszą zawodową literatkę w Europie i pionierkę obrony praw kobiet?",
+      "answers": ["Katarzyna ze Sieny", "Hildegarda z Bingen", "Krystyna de Pisan (Christine de Pizan)", "Julianna z Norwich"],
+      "correct": 2
+    },
+    {
+      "question": "Jaka grupa kobiet w średniowiecznych miastach cieszyła się relatywnie największą niezależnością prawną, mogąc samodzielnie prowadzić warsztaty lub handlować?",
+      "answers": ["Niezamężne panny", "Wdowy", "Młodsze córki szlacheckie", "Kobiety bezdomne"],
       "correct": 1
+    },
+    {
+      "question": "Która XIV-wieczna włoska mistyczka i tercjarka dominikańska odegrała wielką rolę polityczną jako doradczyni papieży, dążąc do zakończenia niewoli awiniońskiej?",
+      "answers": ["Katarzyna ze Sieny", "Klara z Asyżu", "Hildegarda z Bingen", "Kinga"],
+      "correct": 0
+    },
+    {
+      "question": "Jak nazywano powstające od XII wieku w Niderlandach i Niemczech religijne wspólnoty kobiet, które żyły pobożnie i pracowały, nie składając jednak wieczystych ślubów zakonnych?",
+      "answers": ["Klaryski", "Beginki", "Waldensi", "Kamedulki"],
+      "correct": 1
+    },
+    {
+      "question": "Z jakiego powodu Jadwiga Andegaweńska została w 1384 roku formalnie koronowana w Krakowie jako 'król' (Rex), a nie 'królowa' (Regina)?",
+      "answers": [
+        "Oznaczało to, że objęła tron jako pełnoprawny, samodzielny władca rządzący, a nie jedynie małżonka króla",
+        "Wynikało to z błędu kurii papieskiej",
+        "Taki tytuł wymusił na panach polskich król Węgier",
+        "Był to warunek konieczny do zawarcia unii z Litwą"
+      ],
+      "correct": 0
     }
   ],
   "25": [
     {
-      "question": "W których latach w Europie szalała pandemia dżumy, znana jako 'Czarna Śmierć'?",
-      "answers": ["1202-1204", "1337-1353", "1347-1351", "1453-1455"],
-      "correct": 2
-    },
-    {
-      "question": "Jakie były kluczowe konsekwencje gospodarcze Czarnej Śmierci na wsiach?",
-      "answers": ["Wzrost pańszczyzny i nadmiar rąk do pracy", "Drastyczny brak rąk do pracy i kryzys/załamanie systemu feudalnego", "Zwiększenie plonów rolniczych", "Całkowity zanik handlu miejskiego"],
+      "question": "Co stanowiło główny cel zawierania małżeństw wśród średniowiecznych elit społecznych i rycerskich?",
+      "answers": ["Spełnienie romantycznych ideałów miłości", "Regulacja dziedziczenia, konsolidacja majątków ziemskich oraz budowanie sojuszy politycznych", "Uzyskanie wolności od poddaństwa osobistego", "Zwolnienie z podatków na rzecz Kościoła"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Masowy, religijny ruch biczowników, którzy wędrowali po miastach i publicznie zadawali sobie pokutę w czasie dżumy, to flagellanci.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Jak in prawie kanonicznym dojrzałego średniowiecza definiowano moment prawnego zawarcia ważnego małżeństwa?",
+      "answers": ["Wyłącznie poprzez fakt uiszczenia opłaty urzędowej", "Poprzez wyrażenie dobrowolnej zgody obu stron (tzw. konsens małżeński)", "Przez podpisanie umowy lennej u seniora", "Przez ukończenie 25. roku życia przez mężczyznę"],
+      "correct": 1
+    },
+    {
+      "question": "Jak w średniowiecznym prawie majątkowym nazywano zabezpieczenie materialne wnoszone przez męża dla żony w zamian za otrzymany posag?",
+      "answers": ["Prekaria", "Wiano", "Alodium", "Morgengabe"],
+      "correct": 1
+    },
+    {
+      "question": "Czy w średniowiecznym prawie kanonicznym istniała instytucja rozwodu w dzisiejszym rozumieniu (rozwiązanie ważnego małżeństwa)?",
+      "answers": ["Tak, rozwód był powszechny i dostępny na żądanie", "Nie, małżeństwo było nierozerwalne, a elity mogły starać się jedynie o stwierdzenie nieważności (unieważnienie)", "Tak, ale zgodę musiał wyrazić król", "Tak, ale tylko w miastach na prawie magdeburskim"],
+      "correct": 1
+    },
+    {
+      "question": "Jaki wpływ na zawieranie małżeństw w rodach królewskich miały rygorystyczne przepisy Kościoła dotyczące pokrewieństwa?",
+      "answers": ["Wymuszały poszukiwanie partnerów w odległych terytorialnie i kulturowo krajach, by uniknąć zarzutu kazirodztwa", "Wymuszały małżeństwa wyłącznie wewnątrz najbliższej rodziny", "Zupełnie nie obowiązywały władców świeckich", "Zakazywały królom ponownego żenienia się po śmierci żony"],
       "correct": 0
     },
     {
-      "question": "Jak nazywa się niezwykle popularny w sztuce i literaturze późnego średniowiecza motyw przedstawiający korowód ludzi wszystkich stanów ze śmiercią?",
-      "answers": ["Memento mori", "Danse macabre (Taniec śmierci)", "Tomizm", "Pieta"],
-      "correct": 1
+      "question": "Jaki minimalny wiek dojrzałości do zawarcia małżeństwa (tzw. lata sprawne) przyjmowało najczęściej średniowieczne prawo kanoniczne?",
+      "answers": ["12 lat dla dziewcząt i 14 lat dla chłopców", "15 lat dla dziewcząt i 18 lat dla chłopców", "18 lat dla obu płci", "10 lat dla dziewcząt i 12 lat dla chłopców"],
+      "correct": 0
     },
     {
-      "question": "Która grupa ludności była masowo i fałszywie obwiniana w Europie o wywołanie epidemii dżumy poprzez rzekome zatruwanie studni?",
-      "answers": ["Duchowni", "Kupcy hanzeatyccy", "Żydzi", "Mendykanie"],
-      "correct": 2
+      "question": "Jak nazywano specyficzny rodzaj małżeństwa w rodach arystokratycznych, zawieranego z osobą niższego stanu, w którym żona i potomstwo nie miały praw do tytułów i dóbr ojca?",
+      "answers": ["Małżeństwo morganatyczne", "Małżeństwo potajemne", "Konkubinat legalny", "Małżeństwo nieskonsumowane"],
+      "correct": 0
+    },
+    {
+      "question": "Który sobór powszechny z 1215 roku gruntownie uporządkował prawo małżeńskie, wprowadzając m.in. bezwzględny wymóg ogłaszania publicznych zapowiedzi przedślubnych?",
+      "answers": ["Sobór Laterański IV", "Sobór w Konstancji", "Sobór Trydencki", "Sobór w Lyonie"],
+      "correct": 0
+    },
+    {
+      "question": "Jak w prawie kościelnym nazywano potępiane, ale przez długi czas uznawane za ważne związki zawierane bez udziału kapłana i publicznych ceremonii?",
+      "answers": ["Małżeństwa tajne (clandestina)", "Związki cywilne", "Kontrakty fikcyjne", "Małżeństwa świeckie"],
+      "correct": 0
+    },
+    {
+      "question": "W jakim unikalnym przypadku prawnie zawarte i ważne małżeństwo chrześcijańskie mogło zostać całkowicie rozwiązane przez papieża?",
+      "answers": [
+        "W sytuacji, gdy związek nie został skonsumowany (ratum sed non consummatum)",
+        "W przypadku dopuszczenia się zdrady przez żonę",
+        "Gdy jeden z małżonków stracił cały swój majątek",
+        "W przypadku długotrwałej choroby psychicznej jednego z małżonków"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Jak średniowieczne ustawodawstwo świeckie i kościelne podchodziło do kwestii cudzołóstwa (zdrady małżeńskiej)?",
+      "answers": [
+        "Kobiety były karane znacznie surowiej, gdyż ich zdrada godziła w pewność sukcesji majątku i czystość więzów krwi",
+        "Mężczyźni ponosili surowsze kary jako głowy rodziny",
+        "Wprowadzono pełne równouprawnienie w wymiarze kar",
+        "Zdrada nie podlegała żadnym karom prawnym, a jedynie moralnym"
+      ],
+      "correct": 0
     }
   ],
   "26": [
     {
-      "question": "Jakie były lata trwania Wojny Stuletniej między Anglią a Francją?",
-      "answers": ["1302-1402", "1337-1453", "1347-1451", "1455-1485"],
+      "question": "Jaka metoda naukowa i filozoficzna, dążąca do rozumowego uzasadnienia dogmatów wiary, dominowała na średniowiecznych uniwersytetach?",
+      "answers": ["Humanizm", "Scholastyka", "Arianizm", "Neoplatonizm"],
       "correct": 1
     },
     {
-      "question": "W słynnych bitwach pod Crécy (1346) i Poitiers (1356) druzgocące sukcesy odnieśli:",
-      "answers": ["Francuscy rycerze ciężkozbrojni", "Angielscy łucznicy", "Krzyżowcy", "Najemnicy genueńscy"],
+      "question": "Który wybitny teolog i filozof z XIII wieku dokonał monumentalnej syntezy chrześcijaństwa z filozofią Arystotelesa?",
+      "answers": ["Piotr Abelard", "Św. Tomasz z Akwinu", "Anzelm z Canterbury", "Roger Bacon"],
       "correct": 1
     },
     {
-      "question": "Która legendarna bohaterka ludowa odwróciła losy Wojny Stuletniej, oswobadzając Orlean w 1429 roku?",
-      "answers": ["Eleonora Akwitańska", "Joanna d’Arc", "Izabela Francuska", "Małgorzata Andegaweńska"],
-      "correct": 1
-    },
-    {
-      "question": "Prawda czy Fałsz: Skutkiem Wojny Stuletniej było niemal całkowite wypędzenie Anglików z kontynentu europejskiego (zostawili tylko Calais).",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Na jakie dwa podstawowe stopnie (podziały) dzieliło się siedem sztuk wyzwolonych stanowiących wstęp do studiów uniwersyteckich?",
+      "answers": ["Trivium (nauki humanistyczne) i quadrivium (nauki ścisłe)", "Major i minor", "Teologia i filozofia", "Prawo i medycyna"],
       "correct": 0
     },
     {
-      "question": "Który król Anglii zgłosił roszczenia do tronu Francji, co stało się oficjalną przyczyną wybuchu Wojny Stuletniej w 1337 roku?",
-      "answers": ["Ryszard Lwie Serce", "Edward III", "Jan bez Ziemi", "Henryk V"],
+      "question": "Który uniwersytet włoski, słynący jako najważniejszy ośrodek studiów prawniczych w Europie, uznawany jest za najstarszy?",
+      "answers": ["Uniwersytet w Sorbonie (Paryż)", "Uniwersytet w Bolonii", "Uniwersytet w Oksfordzie", "Uniwersytet w Padwie"],
+      "correct": 1
+    },
+    {
+      "question": "Jaki język stanowił uniwersalne medium wykładowe, naukowe i urzędowe w szkolnictwie wyższym w całej średniowiecznej Europie łacińskiej?",
+      "answers": ["Greka", "Łacina", "Staro-francuski", "Niemiecki"],
+      "correct": 1
+    },
+    {
+      "question": "Jaki przełomowy wynalazek z połowy XV wieku, przypisywany Janowi Gutenbergowi, zrewolucjonizował obieg informacji i naukę w Europie?",
+      "answers": ["Czcionka ruchoma i prasa drukarska", "Kompas magnetyczny", "Maszyna parowa", "Papier czerpany"],
+      "correct": 0
+    },
+    {
+      "question": "Jaki styl architektoniczny, charakteryzujący się strzelistością, ostrymi łukami, sklepieniami krzyżowo-żebrowymi i wielkimi witrażami, dominował w późnym średniowieczu?",
+      "answers": ["Styl romański", "Styl barokowy", "Styl gotycki", "Styl renesansowy"],
+      "correct": 2
+    },
+    {
+      "question": "Jak pod wpływem wielkich epidemii i kryzysów późnego średniowiecza nazywano popularny w sztuce i literaturze motyw korowodu ludzi wszystkich stanów prowadzonych przez kościotrupa?",
+      "answers": ["Memento mori", "Danse macabre (Taniec Śmierci)", "Pieta", "Ars moriendi"],
+      "correct": 1
+    },
+    {
+      "question": "Kto jest autorem XIV-wiecznego arcydzieła „Boska Komedia”, które ugruntowało pozycję języków narodowych (włoskiego) kosztem łaciny w literaturze pięknej?",
+      "answers": ["Francesco Petrarka", "Giovanni Boccaccio", "Dante Alighieri", "Geoffrey Chaucer"],
+      "correct": 2
+    },
+    {
+      "question": "Jakie trzy elitarne, wyższe wydziały można było studiować na średniowiecznym uniwersytecie po uprzednim ukończeniu nauk podstawowych (artes liberales)?",
+      "answers": ["Teologię, prawo i medycynę", "Historię, geografię i biologię", "Inżynierię, architekturę i astronomię", "Malarstwo, rzeźbę i muzykę"],
+      "correct": 0
+    },
+    {
+      "question": "Jaki nurt filozoficzny późnego średniowiecza, reprezentowany m.in. przez Wilhelma Ockhama, odrzucał realne istnienie pojęć ogólnych (uniwersaliów), twierdząc, że są one jedynie nazwami?",
+      "answers": ["Realizm radykalny", "Nominalizm", "Tomizm", "Augustynizm"],
       "correct": 1
     }
   ],
   "27": [
     {
-      "question": "W którym roku sułtan Mehmed II zdobył Konstantynopol, kładąc kres Bizancjum?",
-      "answers": ["1347 r.", "1415 r.", "1453 r.", "1492 r."],
-      "correct": 2
-    },
-    {
-      "question": "Co pomogło Turkom osmańskim w 1453 roku skutecznie skruszyć potężne, podwójne mury Konstantynopola?",
-      "answers": ["Katapulty rzymskie", "Użycie nowoczesnych, gigantycznych armat prochowych", "Podkopy pod murami", "Zdrada floty bizantyjskiej"],
+      "question": "Jaka innowacja agrarna, polegająca na cyklicznym podziale pól uprawnych na trzy części, zastąpiła system dwupolowy?",
+      "answers": ["Gospodarka żarowa", "Trójpolówka", "Odłóg naturalny", "Czynszowanie ziemi"],
       "correct": 1
     },
     {
-      "question": "Prawda czy Fałsz: Przejęcie przez Turków kontroli nad Bliskim Wschodem zmusiło Europejczyków do szukania alternatywnych dróg morskich do Indii, co zaowocowało erą wielkich odkryć geograficznych.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Który potężny związek miast północnoeuropejskich zdominował i kontrolował handel dalekosiężny na Morzu Bałtyckim i Północnym?",
+      "answers": ["Związek Hanzeatycki (Hanza)", "Gildia Lewantyńska", "Komuna Wenecka", "Związek Szwabski"],
       "correct": 0
     },
     {
-      "question": "Jak nazywał się ostatni cesarz Bizancjum, który poległ bohatersko podczas obrony murów Konstantynopola w 1453 roku?",
-      "answers": ["Justynian I", "Konstantyn XI Dragaz", "Herakliusz", "Bazyli II"],
+      "question": "Które tragiczne wydarzenie z lat 1347–1352 wywołało głęboki kryzys demograficzny, przyspieszając odchodzenie od pańszczyzny w Europie Zachodniej?",
+      "answers": ["Wojna Dwóch Róż", "Epidemia czarnej śmierci (dżumy)", "Najazd Hunów pod wodzą Attyli", "Złupienie Konstantynopola"],
       "correct": 1
     },
     {
-      "question": "Jaką nazwę otrzymał Konstantynopol po zdobyciu go przez Turków osmańskich, stając się nową stolicą ich imperium?",
-      "answers": ["Ankara", "Stambuł", "Adrianopol", "Bursa"],
+      "question": "Które dwie włoskie republiki morskie zdominowały i zmonopolizowały handel luksusowy (przyprawy, jedwab) na Morzu Śródziemnym?",
+      "answers": ["Londyn i Brugia", "Wenecja i Genua", "Lubeka i Hamburg", "Paryż i Lyon"],
       "correct": 1
+    },
+    {
+      "question": "Jakie dwa kluczowe ulepszenia techniczne w rolnictwie (obok trójpolówki) wpłynęły na gwałtowny wzrost plonów od XI wieku?",
+      "answers": ["Zastosowanie traktorów parowych i nawozów sztucznych", "Ciężki pług z odkładnicą oraz sztywna uprząż końska (chomąto)", "Drewniana motyka i system ręcznego nawadniania", "Zastąpienie koni wołami bez użycia uprzęży"],
+      "correct": 1
+    },
+    {
+      "question": "Jak nazywały się przymusowe organizacje zrzeszające rzemieślników tej samej specjalności w średniowiecznych miastach, kontrolujące jakość i ceny produktów?",
+      "answers": ["Gildie", "Cechy", "Hance", "Manufaktury"],
+      "correct": 1
+    },
+    {
+      "question": "Które słynne cykliczne spotkania handlowe w północno-wschodniej Francji były w XIII i XIV wieku głównym punktem wymiany towarowej między kupcami z Włoch a kupcami z Flandrii i Hanzy?",
+      "answers": ["Jarmarki szampanijskie", "Targi weneckie", "Giełdy brugijskie", "Jarmarki lipskie"],
+      "correct": 0
+    },
+    {
+      "question": "Jaki instrument finansowy, rozwinięty przez włoskich bankierów, pozwalał kupcom na bezpieczny obrót bezgotówkowy i unikanie przewożenia dużych ilości kruszcu?",
+      "answers": ["Akcja", "Banknot państwowy", "Obligacja", "Weksel (litera kredytowa)"],
+      "correct": 3
+    },
+    {
+      "question": "Jak nazywało się wielkie, krwawe powstanie chłopskie we Francji z 1358 roku, wywołane kryzysem gospodarczym wojny stuletniej i obciążeniami podatkowymi?",
+      "answers": ["Powstanie Wata Tylera", "Żakeria (Jacquerie)", "Wojna husycka", "Powstanie tkaczy we Flandrii"],
+      "correct": 1
+    },
+    {
+      "question": "Jak nazywał się najpopularniejszy w Europie Środkowo-Wschodniej niemiecki wzorzec prawa miejskiego, regulujący ustrój, sądownictwo i handel w lokowanych miastach?",
+      "answers": ["Prawo flandryjskie", "Prawo magdeburskie", "Prawo lubeckie", "Zwierciadło saskie"],
+      "correct": 1
+    },
+    {
+      "question": "Na czym polegał proces czynszowania, który upowszechnił się w późnym średniowieczu w miejsce dawnej darmowej pracy chłopów (pańszczyzny)?",
+      "answers": [
+        "Na zamianie darmowej pracy na regularną opłatę pieniężną lub w naturze za użytkowanie ziemi",
+        "Na całkowitym odebraniu ziemi chłopom",
+        "Na zakazie opuszczania wsi przez chłopów",
+        "Na przymusowym wykupie szlachectwa przez bogatych kmieci"
+      ],
+      "correct": 0
     }
   ]
 }
-]
