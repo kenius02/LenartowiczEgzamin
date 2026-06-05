@@ -14,7 +14,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 40px 20px 20px;
+    padding: 120px 20px 20px;
+}
+
+.top-bar {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    z-index: 1100;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -34,19 +47,18 @@ h1 {
 
 /* === NOWY PRZYPIĘTY PRZEŁĄCZNIK W ROGU === */
 .fixed-mode-toggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
+    position: static;
+    z-index: auto;
     display: flex;
     align-items: center;
     gap: 12px;
-    background: rgba(15, 23, 42, 0.6);
+    background: rgba(15, 23, 42, 0.82);
     backdrop-filter: blur(8px);
-    padding: 8px 18px;
-    border-radius: 50px;
+    padding: 8px 16px;
+    border-radius: 999px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    margin-left: auto;
 }
 
 #toggleText {
@@ -116,10 +128,12 @@ input:checked + .slider:before {
     transition: .3s;
 }
 
-#progressText {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    opacity: .8;
+#progressText,
+#progressTextTerms {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    opacity: .85;
+    line-height: 1.35;
 }
 
 /* === KARTA === */
@@ -548,14 +562,19 @@ div[role="button"]:focus-visible {
 
 .stat-card {
     background: rgba(255, 255, 255, .08);
-    padding: 20px;
-    border-radius: 15px;
-    min-width: 150px;
+    padding: 14px 12px;
+    border-radius: 14px;
+    min-width: 130px;
+    flex: 1;
+}
+
+.stat-card span {
+    font-size: 0.92rem;
 }
 
 .stat-card h3 {
-    margin-top: 8px;
-    font-size: 1.8rem;
+    margin-top: 6px;
+    font-size: 1.35rem;
 }
 
 /* === STYL MODALI === */
@@ -632,6 +651,53 @@ div[role="button"]:focus-visible {
 }
 
 @media(max-width: 700px) {
+    body {
+        padding-top: 150px;
+    }
+
+    .top-bar {
+        align-items: stretch;
+    }
+
+    .top-bar {
+        left: 8px;
+        right: 8px;
+        top: 8px;
+    }
+
+    .countdown-container,
+    .fixed-mode-toggle {
+        width: 100%;
+        justify-content: space-between;
+        border-radius: 14px;
+    }
+
+    .fixed-mode-toggle {
+        padding: 10px 14px;
+        margin-left: 0;
+    }
+
+    .countdown-container {
+        padding: 10px 12px;
+    }
+
+    .countdown-container h3 {
+        font-size: 0.9rem;
+        margin-bottom: 2px;
+    }
+
+    #countdown {
+        font-size: 1rem;
+    }
+
+    .fixed-mode-toggle {
+        padding: 8px 12px;
+    }
+
+    #toggleText {
+        font-size: 0.72rem;
+    }
+
     .card {
         height: 320px;
     }
@@ -652,16 +718,40 @@ div[role="button"]:focus-visible {
         width: 100%;
     }
     .stats {
-        gap: 12px;
+        gap: 10px;
     }
     .stat-card {
         width: 100%;
+        padding: 10px 12px;
+        min-width: 0;
+    }
+    .stat-card span {
+        font-size: 0.88rem;
+    }
+    .stat-card h3 {
+        font-size: 1.2rem;
     }
 }
 
 @media(max-width: 520px) {
     body {
-        padding: 14px;
+        padding: 150px 14px 14px;
+    }
+
+    .top-bar {
+        gap: 10px;
+    }
+
+    .countdown-container h3 {
+        font-size: 0.95rem;
+    }
+
+    #countdown {
+        font-size: 1rem;
+    }
+
+    #toggleText {
+        font-size: 0.75rem;
     }
     .container {
         max-width: 100%;
@@ -674,11 +764,6 @@ div[role="button"]:focus-visible {
     }
     .tab-btn {
         flex: 1 1 100%;
-    }
-    .fixed-mode-toggle {
-        position: absolute;
-        top: 10px;
-        right: 10px;
     }
 }
 
@@ -954,15 +1039,15 @@ tr:hover {
 
 
 .countdown-container {
-    position: absolute; /* To jest kluczowe! */
-    top: 20px;          /* Odległość od góry */
-    left: 20px;         /* Odległość od lewej */
-    text-align: center;
-    padding: 15px;
-    background: rgba(15, 23, 42, 0.8);
-    border-radius: 12px;
+    position: static;
+    text-align: left;
+    padding: 14px 16px;
+    background: rgba(15, 23, 42, 0.82);
+    border-radius: 14px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    z-index: 1000;      /* Żeby zawsze był na wierzchu */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(10px);
+    min-width: 180px;
 }
 
 #countdown {
