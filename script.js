@@ -83,14 +83,28 @@ initApp();
 
 function updateCountdown() {
     const examDate = new Date('July 9, 2026 12:30:00').getTime();
+    const countdown = $('countdown');
     const timeLeft = examDate - Date.now();
-    if (timeLeft < 0) return setDisplay('countdown', 'block') && ($('countdown').innerHTML = 'Egzamin już trwa / minął!');
+    if (timeLeft < 0) {
+        if (countdown) {
+            countdown.classList.remove('pulse');
+            void countdown.offsetWidth;
+            countdown.classList.add('pulse');
+            countdown.innerHTML = 'Egzamin już trwa / minął!';
+        }
+        return setDisplay('countdown', 'block');
+    }
 
     const days = Math.floor(timeLeft / 86400000);
     const hours = Math.floor((timeLeft % 86400000) / 3600000);
     const minutes = Math.floor((timeLeft % 3600000) / 60000);
     const seconds = Math.floor((timeLeft % 60000) / 1000);
-    if ($('countdown')) $('countdown').innerHTML = `${days}d ${hours}g ${minutes}m ${seconds}s`;
+    if (countdown) {
+        countdown.classList.remove('pulse');
+        void countdown.offsetWidth;
+        countdown.classList.add('pulse');
+        countdown.innerHTML = `${days}d ${hours}g ${minutes}m ${seconds}s`;
+    }
 }
 setInterval(updateCountdown, 1000);
 updateCountdown();
@@ -120,15 +134,16 @@ function renderFlashCard(type) {
     const cardElement = $(ids.card);
     const inner = cardElement?.querySelector('.card-inner');
     let prevTransition = '';
+    if (cardElement) {
+        cardElement.classList.add('card-changing');
+    }
     if (inner) {
         prevTransition = inner.style.transition || '';
         inner.style.transition = 'none';
         inner.style.transform = 'none';
         cardElement.classList.remove('flipped');
         inner.classList.remove('flipped');
-        // force reflow
         void inner.offsetWidth;
-        // lock flipping for a short moment until transition is restored
         _termFlipLocked = true;
     }
 
@@ -146,14 +161,16 @@ function renderFlashCard(type) {
 
     // restore transition after a short tick so the next manual flip animates
     if (inner) {
-        // restore transition on next frame, remove inline transform so CSS can apply rotation,
-        // and unlock after a small delay
         requestAnimationFrame(() => {
             inner.style.transition = prevTransition || 'transform .55s cubic-bezier(0.4, 0, 0.2, 1)';
-            // clear inline transform so the stylesheet rule (.card.flipped .card-inner) takes effect
             inner.style.transform = '';
-            setTimeout(() => { _termFlipLocked = false; }, 80);
+            setTimeout(() => {
+                if (cardElement) cardElement.classList.remove('card-changing');
+                _termFlipLocked = false;
+            }, 120);
         });
+    } else if (cardElement) {
+        setTimeout(() => cardElement.classList.remove('card-changing'), 120);
     }
 
     $(ids.card)?.classList.remove('flipped');

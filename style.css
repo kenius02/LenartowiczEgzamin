@@ -143,6 +143,13 @@ input:checked + .slider:before {
     height: 350px;
     cursor: pointer;
     pointer-events: auto;
+    transition: opacity .18s ease, transform .18s ease;
+    will-change: transform, opacity;
+}
+
+.card.card-changing {
+    opacity: .78;
+    transform: scale(0.98);
 }
 
 .card-inner {
@@ -655,6 +662,13 @@ div[role="button"]:focus-visible {
         padding-top: 150px;
     }
 
+    .top-bar,
+    .countdown-container,
+    .fixed-mode-toggle,
+    .card {
+        transition: transform .18s ease, opacity .18s ease, box-shadow .18s ease;
+    }
+
     .top-bar {
         align-items: stretch;
     }
@@ -1051,7 +1065,14 @@ tr:hover {
 }
 
 #countdown {
-    font-size: 1.2rem;  /* Nieco mniejszy, żeby nie przytłaczał */
+    font-size: 1.2rem;
     font-weight: bold;
     color: #fbbf24;
+    transition: color .25s ease, transform .25s ease;
+    will-change: transform, color;
+}
+
+#countdown.pulse {
+    color: #fde68a;
+    transform: translateY(-1px) scale(1.02);
 }
